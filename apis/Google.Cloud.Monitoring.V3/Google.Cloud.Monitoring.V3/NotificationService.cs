@@ -48,43 +48,66 @@ namespace Google.Cloud.Monitoring.V3 {
             "Lmdvb2dsZS5wcm90b2J1Zi5GaWVsZE1hc2sSRwoUbm90aWZpY2F0aW9uX2No",
             "YW5uZWwYAyABKAsyKS5nb29nbGUubW9uaXRvcmluZy52My5Ob3RpZmljYXRp",
             "b25DaGFubmVsIj8KIERlbGV0ZU5vdGlmaWNhdGlvbkNoYW5uZWxSZXF1ZXN0",
-            "EgwKBG5hbWUYAyABKAkSDQoFZm9yY2UYBSABKAgynwsKGk5vdGlmaWNhdGlv",
-            "bkNoYW5uZWxTZXJ2aWNlEuUBCiJMaXN0Tm90aWZpY2F0aW9uQ2hhbm5lbERl",
-            "c2NyaXB0b3JzEj8uZ29vZ2xlLm1vbml0b3JpbmcudjMuTGlzdE5vdGlmaWNh",
-            "dGlvbkNoYW5uZWxEZXNjcmlwdG9yc1JlcXVlc3QaQC5nb29nbGUubW9uaXRv",
-            "cmluZy52My5MaXN0Tm90aWZpY2F0aW9uQ2hhbm5lbERlc2NyaXB0b3JzUmVz",
-            "cG9uc2UiPILT5JMCNhI0L3YzL3tuYW1lPXByb2plY3RzLyp9L25vdGlmaWNh",
-            "dGlvbkNoYW5uZWxEZXNjcmlwdG9ycxLWAQogR2V0Tm90aWZpY2F0aW9uQ2hh",
-            "bm5lbERlc2NyaXB0b3ISPS5nb29nbGUubW9uaXRvcmluZy52My5HZXROb3Rp",
-            "ZmljYXRpb25DaGFubmVsRGVzY3JpcHRvclJlcXVlc3QaMy5nb29nbGUubW9u",
-            "aXRvcmluZy52My5Ob3RpZmljYXRpb25DaGFubmVsRGVzY3JpcHRvciI+gtPk",
-            "kwI4EjYvdjMve25hbWU9cHJvamVjdHMvKi9ub3RpZmljYXRpb25DaGFubmVs",
-            "RGVzY3JpcHRvcnMvKn0SvQEKGExpc3ROb3RpZmljYXRpb25DaGFubmVscxI1",
-            "Lmdvb2dsZS5tb25pdG9yaW5nLnYzLkxpc3ROb3RpZmljYXRpb25DaGFubmVs",
-            "c1JlcXVlc3QaNi5nb29nbGUubW9uaXRvcmluZy52My5MaXN0Tm90aWZpY2F0",
-            "aW9uQ2hhbm5lbHNSZXNwb25zZSIygtPkkwIsEiovdjMve25hbWU9cHJvamVj",
-            "dHMvKn0vbm90aWZpY2F0aW9uQ2hhbm5lbHMSrgEKFkdldE5vdGlmaWNhdGlv",
-            "bkNoYW5uZWwSMy5nb29nbGUubW9uaXRvcmluZy52My5HZXROb3RpZmljYXRp",
-            "b25DaGFubmVsUmVxdWVzdBopLmdvb2dsZS5tb25pdG9yaW5nLnYzLk5vdGlm",
-            "aWNhdGlvbkNoYW5uZWwiNILT5JMCLhIsL3YzL3tuYW1lPXByb2plY3RzLyov",
-            "bm90aWZpY2F0aW9uQ2hhbm5lbHMvKn0SyAEKGUNyZWF0ZU5vdGlmaWNhdGlv",
-            "bkNoYW5uZWwSNi5nb29nbGUubW9uaXRvcmluZy52My5DcmVhdGVOb3RpZmlj",
-            "YXRpb25DaGFubmVsUmVxdWVzdBopLmdvb2dsZS5tb25pdG9yaW5nLnYzLk5v",
-            "dGlmaWNhdGlvbkNoYW5uZWwiSILT5JMCQiIqL3YzL3tuYW1lPXByb2plY3Rz",
-            "Lyp9L25vdGlmaWNhdGlvbkNoYW5uZWxzOhRub3RpZmljYXRpb25fY2hhbm5l",
-            "bBLfAQoZVXBkYXRlTm90aWZpY2F0aW9uQ2hhbm5lbBI2Lmdvb2dsZS5tb25p",
-            "dG9yaW5nLnYzLlVwZGF0ZU5vdGlmaWNhdGlvbkNoYW5uZWxSZXF1ZXN0Giku",
-            "Z29vZ2xlLm1vbml0b3JpbmcudjMuTm90aWZpY2F0aW9uQ2hhbm5lbCJfgtPk",
-            "kwJZMkEvdjMve25vdGlmaWNhdGlvbl9jaGFubmVsLm5hbWU9cHJvamVjdHMv",
-            "Ki9ub3RpZmljYXRpb25DaGFubmVscy8qfToUbm90aWZpY2F0aW9uX2NoYW5u",
-            "ZWwSoQEKGURlbGV0ZU5vdGlmaWNhdGlvbkNoYW5uZWwSNi5nb29nbGUubW9u",
-            "aXRvcmluZy52My5EZWxldGVOb3RpZmljYXRpb25DaGFubmVsUmVxdWVzdBoW",
-            "Lmdvb2dsZS5wcm90b2J1Zi5FbXB0eSI0gtPkkwIuKiwvdjMve25hbWU9cHJv",
-            "amVjdHMvKi9ub3RpZmljYXRpb25DaGFubmVscy8qfUKTAQoYY29tLmdvb2ds",
-            "ZS5tb25pdG9yaW5nLnYzQhhOb3RpZmljYXRpb25TZXJ2aWNlUHJvdG9QAVo+",
-            "Z29vZ2xlLmdvbGFuZy5vcmcvZ2VucHJvdG8vZ29vZ2xlYXBpcy9tb25pdG9y",
-            "aW5nL3YzO21vbml0b3JpbmeqAhpHb29nbGUuQ2xvdWQuTW9uaXRvcmluZy5W",
-            "M2IGcHJvdG8z"));
+            "EgwKBG5hbWUYAyABKAkSDQoFZm9yY2UYBSABKAgiPgouU2VuZE5vdGlmaWNh",
+            "dGlvbkNoYW5uZWxWZXJpZmljYXRpb25Db2RlUmVxdWVzdBIMCgRuYW1lGAEg",
+            "ASgJIm4KLUdldE5vdGlmaWNhdGlvbkNoYW5uZWxWZXJpZmljYXRpb25Db2Rl",
+            "UmVxdWVzdBIMCgRuYW1lGAEgASgJEi8KC2V4cGlyZV90aW1lGAIgASgLMhou",
+            "Z29vZ2xlLnByb3RvYnVmLlRpbWVzdGFtcCJvCi5HZXROb3RpZmljYXRpb25D",
+            "aGFubmVsVmVyaWZpY2F0aW9uQ29kZVJlc3BvbnNlEgwKBGNvZGUYASABKAkS",
+            "LwoLZXhwaXJlX3RpbWUYAiABKAsyGi5nb29nbGUucHJvdG9idWYuVGltZXN0",
+            "YW1wIj4KIFZlcmlmeU5vdGlmaWNhdGlvbkNoYW5uZWxSZXF1ZXN0EgwKBG5h",
+            "bWUYASABKAkSDAoEY29kZRgCIAEoCTK7EAoaTm90aWZpY2F0aW9uQ2hhbm5l",
+            "bFNlcnZpY2US5QEKIkxpc3ROb3RpZmljYXRpb25DaGFubmVsRGVzY3JpcHRv",
+            "cnMSPy5nb29nbGUubW9uaXRvcmluZy52My5MaXN0Tm90aWZpY2F0aW9uQ2hh",
+            "bm5lbERlc2NyaXB0b3JzUmVxdWVzdBpALmdvb2dsZS5tb25pdG9yaW5nLnYz",
+            "Lkxpc3ROb3RpZmljYXRpb25DaGFubmVsRGVzY3JpcHRvcnNSZXNwb25zZSI8",
+            "gtPkkwI2EjQvdjMve25hbWU9cHJvamVjdHMvKn0vbm90aWZpY2F0aW9uQ2hh",
+            "bm5lbERlc2NyaXB0b3JzEtYBCiBHZXROb3RpZmljYXRpb25DaGFubmVsRGVz",
+            "Y3JpcHRvchI9Lmdvb2dsZS5tb25pdG9yaW5nLnYzLkdldE5vdGlmaWNhdGlv",
+            "bkNoYW5uZWxEZXNjcmlwdG9yUmVxdWVzdBozLmdvb2dsZS5tb25pdG9yaW5n",
+            "LnYzLk5vdGlmaWNhdGlvbkNoYW5uZWxEZXNjcmlwdG9yIj6C0+STAjgSNi92",
+            "My97bmFtZT1wcm9qZWN0cy8qL25vdGlmaWNhdGlvbkNoYW5uZWxEZXNjcmlw",
+            "dG9ycy8qfRK9AQoYTGlzdE5vdGlmaWNhdGlvbkNoYW5uZWxzEjUuZ29vZ2xl",
+            "Lm1vbml0b3JpbmcudjMuTGlzdE5vdGlmaWNhdGlvbkNoYW5uZWxzUmVxdWVz",
+            "dBo2Lmdvb2dsZS5tb25pdG9yaW5nLnYzLkxpc3ROb3RpZmljYXRpb25DaGFu",
+            "bmVsc1Jlc3BvbnNlIjKC0+STAiwSKi92My97bmFtZT1wcm9qZWN0cy8qfS9u",
+            "b3RpZmljYXRpb25DaGFubmVscxKuAQoWR2V0Tm90aWZpY2F0aW9uQ2hhbm5l",
+            "bBIzLmdvb2dsZS5tb25pdG9yaW5nLnYzLkdldE5vdGlmaWNhdGlvbkNoYW5u",
+            "ZWxSZXF1ZXN0GikuZ29vZ2xlLm1vbml0b3JpbmcudjMuTm90aWZpY2F0aW9u",
+            "Q2hhbm5lbCI0gtPkkwIuEiwvdjMve25hbWU9cHJvamVjdHMvKi9ub3RpZmlj",
+            "YXRpb25DaGFubmVscy8qfRLIAQoZQ3JlYXRlTm90aWZpY2F0aW9uQ2hhbm5l",
+            "bBI2Lmdvb2dsZS5tb25pdG9yaW5nLnYzLkNyZWF0ZU5vdGlmaWNhdGlvbkNo",
+            "YW5uZWxSZXF1ZXN0GikuZ29vZ2xlLm1vbml0b3JpbmcudjMuTm90aWZpY2F0",
+            "aW9uQ2hhbm5lbCJIgtPkkwJCIiovdjMve25hbWU9cHJvamVjdHMvKn0vbm90",
+            "aWZpY2F0aW9uQ2hhbm5lbHM6FG5vdGlmaWNhdGlvbl9jaGFubmVsEt8BChlV",
+            "cGRhdGVOb3RpZmljYXRpb25DaGFubmVsEjYuZ29vZ2xlLm1vbml0b3Jpbmcu",
+            "djMuVXBkYXRlTm90aWZpY2F0aW9uQ2hhbm5lbFJlcXVlc3QaKS5nb29nbGUu",
+            "bW9uaXRvcmluZy52My5Ob3RpZmljYXRpb25DaGFubmVsIl+C0+STAlkyQS92",
+            "My97bm90aWZpY2F0aW9uX2NoYW5uZWwubmFtZT1wcm9qZWN0cy8qL25vdGlm",
+            "aWNhdGlvbkNoYW5uZWxzLyp9OhRub3RpZmljYXRpb25fY2hhbm5lbBKhAQoZ",
+            "RGVsZXRlTm90aWZpY2F0aW9uQ2hhbm5lbBI2Lmdvb2dsZS5tb25pdG9yaW5n",
+            "LnYzLkRlbGV0ZU5vdGlmaWNhdGlvbkNoYW5uZWxSZXF1ZXN0GhYuZ29vZ2xl",
+            "LnByb3RvYnVmLkVtcHR5IjSC0+STAi4qLC92My97bmFtZT1wcm9qZWN0cy8q",
+            "L25vdGlmaWNhdGlvbkNoYW5uZWxzLyp9EtUBCidTZW5kTm90aWZpY2F0aW9u",
+            "Q2hhbm5lbFZlcmlmaWNhdGlvbkNvZGUSRC5nb29nbGUubW9uaXRvcmluZy52",
+            "My5TZW5kTm90aWZpY2F0aW9uQ2hhbm5lbFZlcmlmaWNhdGlvbkNvZGVSZXF1",
+            "ZXN0GhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5IkyC0+STAkYiQS92My97bmFt",
+            "ZT1wcm9qZWN0cy8qL25vdGlmaWNhdGlvbkNoYW5uZWxzLyp9OnNlbmRWZXJp",
+            "ZmljYXRpb25Db2RlOgEqEoACCiZHZXROb3RpZmljYXRpb25DaGFubmVsVmVy",
+            "aWZpY2F0aW9uQ29kZRJDLmdvb2dsZS5tb25pdG9yaW5nLnYzLkdldE5vdGlm",
+            "aWNhdGlvbkNoYW5uZWxWZXJpZmljYXRpb25Db2RlUmVxdWVzdBpELmdvb2ds",
+            "ZS5tb25pdG9yaW5nLnYzLkdldE5vdGlmaWNhdGlvbkNoYW5uZWxWZXJpZmlj",
+            "YXRpb25Db2RlUmVzcG9uc2UiS4LT5JMCRSJAL3YzL3tuYW1lPXByb2plY3Rz",
+            "Lyovbm90aWZpY2F0aW9uQ2hhbm5lbHMvKn06Z2V0VmVyaWZpY2F0aW9uQ29k",
+            "ZToBKhK+AQoZVmVyaWZ5Tm90aWZpY2F0aW9uQ2hhbm5lbBI2Lmdvb2dsZS5t",
+            "b25pdG9yaW5nLnYzLlZlcmlmeU5vdGlmaWNhdGlvbkNoYW5uZWxSZXF1ZXN0",
+            "GikuZ29vZ2xlLm1vbml0b3JpbmcudjMuTm90aWZpY2F0aW9uQ2hhbm5lbCI+",
+            "gtPkkwI4IjMvdjMve25hbWU9cHJvamVjdHMvKi9ub3RpZmljYXRpb25DaGFu",
+            "bmVscy8qfTp2ZXJpZnk6ASpCsAEKGGNvbS5nb29nbGUubW9uaXRvcmluZy52",
+            "M0IYTm90aWZpY2F0aW9uU2VydmljZVByb3RvUAFaPmdvb2dsZS5nb2xhbmcu",
+            "b3JnL2dlbnByb3RvL2dvb2dsZWFwaXMvbW9uaXRvcmluZy92Mzttb25pdG9y",
+            "aW5nqgIaR29vZ2xlLkNsb3VkLk1vbml0b3JpbmcuVjPKAhpHb29nbGVcQ2xv",
+            "dWRcTW9uaXRvcmluZ1xWM2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Cloud.Monitoring.V3.NotificationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -96,7 +119,11 @@ namespace Google.Cloud.Monitoring.V3 {
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.ListNotificationChannelsResponse), global::Google.Cloud.Monitoring.V3.ListNotificationChannelsResponse.Parser, new[]{ "NotificationChannels", "NextPageToken" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.GetNotificationChannelRequest), global::Google.Cloud.Monitoring.V3.GetNotificationChannelRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.UpdateNotificationChannelRequest), global::Google.Cloud.Monitoring.V3.UpdateNotificationChannelRequest.Parser, new[]{ "UpdateMask", "NotificationChannel" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.DeleteNotificationChannelRequest), global::Google.Cloud.Monitoring.V3.DeleteNotificationChannelRequest.Parser, new[]{ "Name", "Force" }, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.DeleteNotificationChannelRequest), global::Google.Cloud.Monitoring.V3.DeleteNotificationChannelRequest.Parser, new[]{ "Name", "Force" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.SendNotificationChannelVerificationCodeRequest), global::Google.Cloud.Monitoring.V3.SendNotificationChannelVerificationCodeRequest.Parser, new[]{ "Name" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.GetNotificationChannelVerificationCodeRequest), global::Google.Cloud.Monitoring.V3.GetNotificationChannelVerificationCodeRequest.Parser, new[]{ "Name", "ExpireTime" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.GetNotificationChannelVerificationCodeResponse), global::Google.Cloud.Monitoring.V3.GetNotificationChannelVerificationCodeResponse.Parser, new[]{ "Code", "ExpireTime" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.VerifyNotificationChannelRequest), global::Google.Cloud.Monitoring.V3.VerifyNotificationChannelRequest.Parser, new[]{ "Name", "Code" }, null, null, null)
           }));
     }
     #endregion
@@ -148,6 +175,10 @@ namespace Google.Cloud.Monitoring.V3 {
     /// the notification channel descriptors. The expected syntax is:
     ///
     ///    "projects/[PROJECT_ID]"
+    ///
+    /// Note that this names the parent container in which to look for the
+    /// descriptors; to retrieve a single descriptor by name, use the
+    /// [GetNotificationChannelDescriptor][] operation, instead.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -485,7 +516,7 @@ namespace Google.Cloud.Monitoring.V3 {
     private string name_ = "";
     /// <summary>
     /// The channel type for which to execute the request. The format is
-    /// `"projects/{project_id_or_number}/notificationChannelDescriptors/{channel_type}"`.
+    /// `"projects/[PROJECT_ID]/notificationChannelDescriptors/{channel_type}"`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -609,8 +640,14 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int NameFieldNumber = 3;
     private string name_ = "";
     /// <summary>
-    /// The project on which to execute the request. The format is
-    /// `"projects/{project_id_or_number}"`.
+    /// The project on which to execute the request. The format is:
+    ///
+    ///    `"projects/[PROJECT_ID]"`.
+    ///
+    /// Note that this names the container into which the channel will be
+    /// written. This does not name the newly created channel. The resulting
+    /// channel's name will have a normalized version of this field as a prefix,
+    /// but will add "/notificationChannels/[CHANNEL_ID]" to identify the channel.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -774,7 +811,10 @@ namespace Google.Cloud.Monitoring.V3 {
     private string name_ = "";
     /// <summary>
     /// The project on which to execute the request. The format is
-    /// `"projects/{project_id_or_number}"`.
+    /// `"projects/[PROJECT_ID]"`. That is, this names the container
+    /// in which to look for the notification channels; it does not name a
+    /// specific channel. To query a specific channel by name, use the
+    /// [GetNotificationChannel][] operation.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -1176,7 +1216,7 @@ namespace Google.Cloud.Monitoring.V3 {
     private string name_ = "";
     /// <summary>
     /// The channel for which to execute the request. The format is
-    /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+    /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -1470,7 +1510,7 @@ namespace Google.Cloud.Monitoring.V3 {
     private string name_ = "";
     /// <summary>
     /// The channel for which to execute the request. The format is
-    /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+    /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -1579,6 +1619,612 @@ namespace Google.Cloud.Monitoring.V3 {
           }
           case 40: {
             Force = input.ReadBool();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class SendNotificationChannelVerificationCodeRequest : pb::IMessage<SendNotificationChannelVerificationCodeRequest> {
+    private static readonly pb::MessageParser<SendNotificationChannelVerificationCodeRequest> _parser = new pb::MessageParser<SendNotificationChannelVerificationCodeRequest>(() => new SendNotificationChannelVerificationCodeRequest());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<SendNotificationChannelVerificationCodeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Google.Cloud.Monitoring.V3.NotificationServiceReflection.Descriptor.MessageTypes[9]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SendNotificationChannelVerificationCodeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SendNotificationChannelVerificationCodeRequest(SendNotificationChannelVerificationCodeRequest other) : this() {
+      name_ = other.name_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public SendNotificationChannelVerificationCodeRequest Clone() {
+      return new SendNotificationChannelVerificationCodeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The notification channel to which to send a verification code.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as SendNotificationChannelVerificationCodeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(SendNotificationChannelVerificationCodeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(SendNotificationChannelVerificationCodeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetNotificationChannelVerificationCodeRequest : pb::IMessage<GetNotificationChannelVerificationCodeRequest> {
+    private static readonly pb::MessageParser<GetNotificationChannelVerificationCodeRequest> _parser = new pb::MessageParser<GetNotificationChannelVerificationCodeRequest>(() => new GetNotificationChannelVerificationCodeRequest());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetNotificationChannelVerificationCodeRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Google.Cloud.Monitoring.V3.NotificationServiceReflection.Descriptor.MessageTypes[10]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetNotificationChannelVerificationCodeRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetNotificationChannelVerificationCodeRequest(GetNotificationChannelVerificationCodeRequest other) : this() {
+      name_ = other.name_;
+      ExpireTime = other.expireTime_ != null ? other.ExpireTime.Clone() : null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetNotificationChannelVerificationCodeRequest Clone() {
+      return new GetNotificationChannelVerificationCodeRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The notification channel for which a verification code is to be generated
+    /// and retrieved. This must name a channel that is already verified; if
+    /// the specified channel is not verified, the request will fail.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "expire_time" field.</summary>
+    public const int ExpireTimeFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp expireTime_;
+    /// <summary>
+    /// The desired expiration time. If specified, the API will guarantee that
+    /// the returned code will not be valid after the specified timestamp;
+    /// however, the API cannot guarantee that the returned code will be
+    /// valid for at least as long as the requested time (the API puts an upper
+    /// bound on the amount of time for which a code may be valid). If omitted,
+    /// a default expiration will be used, which may be less than the max
+    /// permissible expiration (so specifying an expiration may extend the
+    /// code's lifetime over omitting an expiration, even though the API does
+    /// impose an upper limit on the maximum expiration that is permitted).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ExpireTime {
+      get { return expireTime_; }
+      set {
+        expireTime_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetNotificationChannelVerificationCodeRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetNotificationChannelVerificationCodeRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (!object.Equals(ExpireTime, other.ExpireTime)) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (expireTime_ != null) hash ^= ExpireTime.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (expireTime_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ExpireTime);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (expireTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpireTime);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetNotificationChannelVerificationCodeRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.expireTime_ != null) {
+        if (expireTime_ == null) {
+          expireTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ExpireTime.MergeFrom(other.ExpireTime);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (expireTime_ == null) {
+              expireTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(expireTime_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class GetNotificationChannelVerificationCodeResponse : pb::IMessage<GetNotificationChannelVerificationCodeResponse> {
+    private static readonly pb::MessageParser<GetNotificationChannelVerificationCodeResponse> _parser = new pb::MessageParser<GetNotificationChannelVerificationCodeResponse>(() => new GetNotificationChannelVerificationCodeResponse());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<GetNotificationChannelVerificationCodeResponse> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Google.Cloud.Monitoring.V3.NotificationServiceReflection.Descriptor.MessageTypes[11]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetNotificationChannelVerificationCodeResponse() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetNotificationChannelVerificationCodeResponse(GetNotificationChannelVerificationCodeResponse other) : this() {
+      code_ = other.code_;
+      ExpireTime = other.expireTime_ != null ? other.ExpireTime.Clone() : null;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public GetNotificationChannelVerificationCodeResponse Clone() {
+      return new GetNotificationChannelVerificationCodeResponse(this);
+    }
+
+    /// <summary>Field number for the "code" field.</summary>
+    public const int CodeFieldNumber = 1;
+    private string code_ = "";
+    /// <summary>
+    /// The verification code, which may be used to verify other channels
+    /// that have an equivalent identity (i.e. other channels of the same
+    /// type with the same fingerprint such as other email channels with
+    /// the same email address or other sms channels with the same number).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Code {
+      get { return code_; }
+      set {
+        code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "expire_time" field.</summary>
+    public const int ExpireTimeFieldNumber = 2;
+    private global::Google.Protobuf.WellKnownTypes.Timestamp expireTime_;
+    /// <summary>
+    /// The expiration time associated with the code that was returned. If
+    /// an expiration was provided in the request, this is the minimum of the
+    /// requested expiration in the request and the max permitted expiration.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Protobuf.WellKnownTypes.Timestamp ExpireTime {
+      get { return expireTime_; }
+      set {
+        expireTime_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as GetNotificationChannelVerificationCodeResponse);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(GetNotificationChannelVerificationCodeResponse other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Code != other.Code) return false;
+      if (!object.Equals(ExpireTime, other.ExpireTime)) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Code.Length != 0) hash ^= Code.GetHashCode();
+      if (expireTime_ != null) hash ^= ExpireTime.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Code.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Code);
+      }
+      if (expireTime_ != null) {
+        output.WriteRawTag(18);
+        output.WriteMessage(ExpireTime);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Code.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
+      }
+      if (expireTime_ != null) {
+        size += 1 + pb::CodedOutputStream.ComputeMessageSize(ExpireTime);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(GetNotificationChannelVerificationCodeResponse other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Code.Length != 0) {
+        Code = other.Code;
+      }
+      if (other.expireTime_ != null) {
+        if (expireTime_ == null) {
+          expireTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+        }
+        ExpireTime.MergeFrom(other.ExpireTime);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            Code = input.ReadString();
+            break;
+          }
+          case 18: {
+            if (expireTime_ == null) {
+              expireTime_ = new global::Google.Protobuf.WellKnownTypes.Timestamp();
+            }
+            input.ReadMessage(expireTime_);
+            break;
+          }
+        }
+      }
+    }
+
+  }
+
+  public sealed partial class VerifyNotificationChannelRequest : pb::IMessage<VerifyNotificationChannelRequest> {
+    private static readonly pb::MessageParser<VerifyNotificationChannelRequest> _parser = new pb::MessageParser<VerifyNotificationChannelRequest>(() => new VerifyNotificationChannelRequest());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<VerifyNotificationChannelRequest> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Google.Cloud.Monitoring.V3.NotificationServiceReflection.Descriptor.MessageTypes[12]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VerifyNotificationChannelRequest() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VerifyNotificationChannelRequest(VerifyNotificationChannelRequest other) : this() {
+      name_ = other.name_;
+      code_ = other.code_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public VerifyNotificationChannelRequest Clone() {
+      return new VerifyNotificationChannelRequest(this);
+    }
+
+    /// <summary>Field number for the "name" field.</summary>
+    public const int NameFieldNumber = 1;
+    private string name_ = "";
+    /// <summary>
+    /// The notification channel to verify.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Name {
+      get { return name_; }
+      set {
+        name_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    /// <summary>Field number for the "code" field.</summary>
+    public const int CodeFieldNumber = 2;
+    private string code_ = "";
+    /// <summary>
+    /// The verification code that was delivered to the channel as
+    /// a result of invoking the `SendNotificationChannelVerificationCode` API
+    /// method or that was retrieved from a verified channel via
+    /// `GetNotificationChannelVerificationCode`. For example, one might have
+    /// "G-123456" or "TKNZGhhd2EyN3I1MnRnMjRv" (in general, one is only
+    /// guaranteed that the code is valid UTF-8; one should not
+    /// make any assumptions regarding the structure or format of the code).
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public string Code {
+      get { return code_; }
+      set {
+        code_ = pb::ProtoPreconditions.CheckNotNull(value, "value");
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as VerifyNotificationChannelRequest);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(VerifyNotificationChannelRequest other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (Name != other.Name) return false;
+      if (Code != other.Code) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (Name.Length != 0) hash ^= Name.GetHashCode();
+      if (Code.Length != 0) hash ^= Code.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (Name.Length != 0) {
+        output.WriteRawTag(10);
+        output.WriteString(Name);
+      }
+      if (Code.Length != 0) {
+        output.WriteRawTag(18);
+        output.WriteString(Code);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (Name.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Name);
+      }
+      if (Code.Length != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeStringSize(Code);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(VerifyNotificationChannelRequest other) {
+      if (other == null) {
+        return;
+      }
+      if (other.Name.Length != 0) {
+        Name = other.Name;
+      }
+      if (other.Code.Length != 0) {
+        Code = other.Code;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 10: {
+            Name = input.ReadString();
+            break;
+          }
+          case 18: {
+            Code = input.ReadString();
             break;
           }
         }

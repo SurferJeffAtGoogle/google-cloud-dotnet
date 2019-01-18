@@ -26,49 +26,52 @@ namespace Google.Cloud.Monitoring.V3 {
             "bml0b3JpbmcudjMaHGdvb2dsZS9hcGkvYW5ub3RhdGlvbnMucHJvdG8aIWdv",
             "b2dsZS9tb25pdG9yaW5nL3YzL2NvbW1vbi5wcm90bxoqZ29vZ2xlL21vbml0",
             "b3JpbmcvdjMvbXV0YXRpb25fcmVjb3JkLnByb3RvGh5nb29nbGUvcHJvdG9i",
-            "dWYvZHVyYXRpb24ucHJvdG8iogwKC0FsZXJ0UG9saWN5EgwKBG5hbWUYASAB",
-            "KAkSFAoMZGlzcGxheV9uYW1lGAIgASgJEkYKDWRvY3VtZW50YXRpb24YDSAB",
-            "KAsyLy5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBvbGljeS5Eb2N1bWVu",
-            "dGF0aW9uEkYKC3VzZXJfbGFiZWxzGBAgAygLMjEuZ29vZ2xlLm1vbml0b3Jp",
-            "bmcudjMuQWxlcnRQb2xpY3kuVXNlckxhYmVsc0VudHJ5Ej8KCmNvbmRpdGlv",
-            "bnMYDCADKAsyKy5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBvbGljeS5D",
-            "b25kaXRpb24SSQoIY29tYmluZXIYBiABKA4yNy5nb29nbGUubW9uaXRvcmlu",
-            "Zy52My5BbGVydFBvbGljeS5Db25kaXRpb25Db21iaW5lclR5cGUSEAoIZGlz",
-            "YWJsZWQYByABKAgSHQoVbm90aWZpY2F0aW9uX2NoYW5uZWxzGA4gAygJEj0K",
-            "D2NyZWF0aW9uX3JlY29yZBgKIAEoCzIkLmdvb2dsZS5tb25pdG9yaW5nLnYz",
-            "Lk11dGF0aW9uUmVjb3JkEj0KD211dGF0aW9uX3JlY29yZBgLIAEoCzIkLmdv",
-            "b2dsZS5tb25pdG9yaW5nLnYzLk11dGF0aW9uUmVjb3JkGjMKDURvY3VtZW50",
-            "YXRpb24SDwoHY29udGVudBgBIAEoCRIRCgltaW1lX3R5cGUYAiABKAka+AYK",
-            "CUNvbmRpdGlvbhIMCgRuYW1lGAwgASgJEhQKDGRpc3BsYXlfbmFtZRgGIAEo",
-            "CRJaChNjb25kaXRpb25fdGhyZXNob2xkGAEgASgLMjsuZ29vZ2xlLm1vbml0",
-            "b3JpbmcudjMuQWxlcnRQb2xpY3kuQ29uZGl0aW9uLk1ldHJpY1RocmVzaG9s",
-            "ZEgAElUKEGNvbmRpdGlvbl9hYnNlbnQYAiABKAsyOS5nb29nbGUubW9uaXRv",
-            "cmluZy52My5BbGVydFBvbGljeS5Db25kaXRpb24uTWV0cmljQWJzZW5jZUgA",
-            "GjUKB1RyaWdnZXISDwoFY291bnQYASABKAVIABIRCgdwZXJjZW50GAIgASgB",
-            "SABCBgoEdHlwZRqBAwoPTWV0cmljVGhyZXNob2xkEg4KBmZpbHRlchgCIAEo",
-            "CRI3CgxhZ2dyZWdhdGlvbnMYCCADKAsyIS5nb29nbGUubW9uaXRvcmluZy52",
-            "My5BZ2dyZWdhdGlvbhIaChJkZW5vbWluYXRvcl9maWx0ZXIYCSABKAkSQwoY",
-            "ZGVub21pbmF0b3JfYWdncmVnYXRpb25zGAogAygLMiEuZ29vZ2xlLm1vbml0",
-            "b3JpbmcudjMuQWdncmVnYXRpb24SOAoKY29tcGFyaXNvbhgEIAEoDjIkLmdv",
-            "b2dsZS5tb25pdG9yaW5nLnYzLkNvbXBhcmlzb25UeXBlEhcKD3RocmVzaG9s",
-            "ZF92YWx1ZRgFIAEoARIrCghkdXJhdGlvbhgGIAEoCzIZLmdvb2dsZS5wcm90",
-            "b2J1Zi5EdXJhdGlvbhJECgd0cmlnZ2VyGAcgASgLMjMuZ29vZ2xlLm1vbml0",
-            "b3JpbmcudjMuQWxlcnRQb2xpY3kuQ29uZGl0aW9uLlRyaWdnZXIaywEKDU1l",
-            "dHJpY0Fic2VuY2USDgoGZmlsdGVyGAEgASgJEjcKDGFnZ3JlZ2F0aW9ucxgF",
-            "IAMoCzIhLmdvb2dsZS5tb25pdG9yaW5nLnYzLkFnZ3JlZ2F0aW9uEisKCGR1",
-            "cmF0aW9uGAIgASgLMhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEkQKB3Ry",
-            "aWdnZXIYAyABKAsyMy5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBvbGlj",
-            "eS5Db25kaXRpb24uVHJpZ2dlckILCgljb25kaXRpb24aMQoPVXNlckxhYmVs",
-            "c0VudHJ5EgsKA2tleRgBIAEoCRINCgV2YWx1ZRgCIAEoCToCOAEiQQoVQ29u",
-            "ZGl0aW9uQ29tYmluZXJUeXBlEhcKE0NPTUJJTkVfVU5TUEVDSUZJRUQQABIH",
-            "CgNBTkQQARIGCgJPUhACQoUBChhjb20uZ29vZ2xlLm1vbml0b3JpbmcudjNC",
-            "CkFsZXJ0UHJvdG9QAVo+Z29vZ2xlLmdvbGFuZy5vcmcvZ2VucHJvdG8vZ29v",
-            "Z2xlYXBpcy9tb25pdG9yaW5nL3YzO21vbml0b3JpbmeqAhpHb29nbGUuQ2xv",
-            "dWQuTW9uaXRvcmluZy5WM2IGcHJvdG8z"));
+            "dWYvZHVyYXRpb24ucHJvdG8aHmdvb2dsZS9wcm90b2J1Zi93cmFwcGVycy5w",
+            "cm90byLdDAoLQWxlcnRQb2xpY3kSDAoEbmFtZRgBIAEoCRIUCgxkaXNwbGF5",
+            "X25hbWUYAiABKAkSRgoNZG9jdW1lbnRhdGlvbhgNIAEoCzIvLmdvb2dsZS5t",
+            "b25pdG9yaW5nLnYzLkFsZXJ0UG9saWN5LkRvY3VtZW50YXRpb24SRgoLdXNl",
+            "cl9sYWJlbHMYECADKAsyMS5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBv",
+            "bGljeS5Vc2VyTGFiZWxzRW50cnkSPwoKY29uZGl0aW9ucxgMIAMoCzIrLmdv",
+            "b2dsZS5tb25pdG9yaW5nLnYzLkFsZXJ0UG9saWN5LkNvbmRpdGlvbhJJCghj",
+            "b21iaW5lchgGIAEoDjI3Lmdvb2dsZS5tb25pdG9yaW5nLnYzLkFsZXJ0UG9s",
+            "aWN5LkNvbmRpdGlvbkNvbWJpbmVyVHlwZRIrCgdlbmFibGVkGBEgASgLMhou",
+            "Z29vZ2xlLnByb3RvYnVmLkJvb2xWYWx1ZRIdChVub3RpZmljYXRpb25fY2hh",
+            "bm5lbHMYDiADKAkSPQoPY3JlYXRpb25fcmVjb3JkGAogASgLMiQuZ29vZ2xl",
+            "Lm1vbml0b3JpbmcudjMuTXV0YXRpb25SZWNvcmQSPQoPbXV0YXRpb25fcmVj",
+            "b3JkGAsgASgLMiQuZ29vZ2xlLm1vbml0b3JpbmcudjMuTXV0YXRpb25SZWNv",
+            "cmQaMwoNRG9jdW1lbnRhdGlvbhIPCgdjb250ZW50GAEgASgJEhEKCW1pbWVf",
+            "dHlwZRgCIAEoCRr4BgoJQ29uZGl0aW9uEgwKBG5hbWUYDCABKAkSFAoMZGlz",
+            "cGxheV9uYW1lGAYgASgJEloKE2NvbmRpdGlvbl90aHJlc2hvbGQYASABKAsy",
+            "Oy5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBvbGljeS5Db25kaXRpb24u",
+            "TWV0cmljVGhyZXNob2xkSAASVQoQY29uZGl0aW9uX2Fic2VudBgCIAEoCzI5",
+            "Lmdvb2dsZS5tb25pdG9yaW5nLnYzLkFsZXJ0UG9saWN5LkNvbmRpdGlvbi5N",
+            "ZXRyaWNBYnNlbmNlSAAaNQoHVHJpZ2dlchIPCgVjb3VudBgBIAEoBUgAEhEK",
+            "B3BlcmNlbnQYAiABKAFIAEIGCgR0eXBlGoEDCg9NZXRyaWNUaHJlc2hvbGQS",
+            "DgoGZmlsdGVyGAIgASgJEjcKDGFnZ3JlZ2F0aW9ucxgIIAMoCzIhLmdvb2ds",
+            "ZS5tb25pdG9yaW5nLnYzLkFnZ3JlZ2F0aW9uEhoKEmRlbm9taW5hdG9yX2Zp",
+            "bHRlchgJIAEoCRJDChhkZW5vbWluYXRvcl9hZ2dyZWdhdGlvbnMYCiADKAsy",
+            "IS5nb29nbGUubW9uaXRvcmluZy52My5BZ2dyZWdhdGlvbhI4Cgpjb21wYXJp",
+            "c29uGAQgASgOMiQuZ29vZ2xlLm1vbml0b3JpbmcudjMuQ29tcGFyaXNvblR5",
+            "cGUSFwoPdGhyZXNob2xkX3ZhbHVlGAUgASgBEisKCGR1cmF0aW9uGAYgASgL",
+            "MhkuZ29vZ2xlLnByb3RvYnVmLkR1cmF0aW9uEkQKB3RyaWdnZXIYByABKAsy",
+            "My5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBvbGljeS5Db25kaXRpb24u",
+            "VHJpZ2dlchrLAQoNTWV0cmljQWJzZW5jZRIOCgZmaWx0ZXIYASABKAkSNwoM",
+            "YWdncmVnYXRpb25zGAUgAygLMiEuZ29vZ2xlLm1vbml0b3JpbmcudjMuQWdn",
+            "cmVnYXRpb24SKwoIZHVyYXRpb24YAiABKAsyGS5nb29nbGUucHJvdG9idWYu",
+            "RHVyYXRpb24SRAoHdHJpZ2dlchgDIAEoCzIzLmdvb2dsZS5tb25pdG9yaW5n",
+            "LnYzLkFsZXJ0UG9saWN5LkNvbmRpdGlvbi5UcmlnZ2VyQgsKCWNvbmRpdGlv",
+            "bhoxCg9Vc2VyTGFiZWxzRW50cnkSCwoDa2V5GAEgASgJEg0KBXZhbHVlGAIg",
+            "ASgJOgI4ASJhChVDb25kaXRpb25Db21iaW5lclR5cGUSFwoTQ09NQklORV9V",
+            "TlNQRUNJRklFRBAAEgcKA0FORBABEgYKAk9SEAISHgoaQU5EX1dJVEhfTUFU",
+            "Q0hJTkdfUkVTT1VSQ0UQA0KiAQoYY29tLmdvb2dsZS5tb25pdG9yaW5nLnYz",
+            "QgpBbGVydFByb3RvUAFaPmdvb2dsZS5nb2xhbmcub3JnL2dlbnByb3RvL2dv",
+            "b2dsZWFwaXMvbW9uaXRvcmluZy92Mzttb25pdG9yaW5nqgIaR29vZ2xlLkNs",
+            "b3VkLk1vbml0b3JpbmcuVjPKAhpHb29nbGVcQ2xvdWRcTW9uaXRvcmluZ1xW",
+            "M2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
-          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Cloud.Monitoring.V3.CommonReflection.Descriptor, global::Google.Cloud.Monitoring.V3.MutationRecordReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, },
+          new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Cloud.Monitoring.V3.CommonReflection.Descriptor, global::Google.Cloud.Monitoring.V3.MutationRecordReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy), global::Google.Cloud.Monitoring.V3.AlertPolicy.Parser, new[]{ "Name", "DisplayName", "Documentation", "UserLabels", "Conditions", "Combiner", "Disabled", "NotificationChannels", "CreationRecord", "MutationRecord" }, null, new[]{ typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.ConditionCombinerType) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Documentation), global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Documentation.Parser, new[]{ "Content", "MimeType" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy), global::Google.Cloud.Monitoring.V3.AlertPolicy.Parser, new[]{ "Name", "DisplayName", "Documentation", "UserLabels", "Conditions", "Combiner", "Enabled", "NotificationChannels", "CreationRecord", "MutationRecord" }, null, new[]{ typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.ConditionCombinerType) }, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Documentation), global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Documentation.Parser, new[]{ "Content", "MimeType" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition), global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Parser, new[]{ "Name", "DisplayName", "ConditionThreshold", "ConditionAbsent" }, new[]{ "Condition" }, null, new pbr::GeneratedClrTypeInfo[] { new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Types.Trigger), global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Types.Trigger.Parser, new[]{ "Count", "Percent" }, new[]{ "Type" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Types.MetricThreshold), global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Types.MetricThreshold.Parser, new[]{ "Filter", "Aggregations", "DenominatorFilter", "DenominatorAggregations", "Comparison", "ThresholdValue", "Duration", "Trigger" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Types.MetricAbsence), global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.Condition.Types.MetricAbsence.Parser, new[]{ "Filter", "Aggregations", "Duration", "Trigger" }, null, null, null)}),
@@ -115,7 +118,7 @@ namespace Google.Cloud.Monitoring.V3 {
       userLabels_ = other.userLabels_.Clone();
       conditions_ = other.conditions_.Clone();
       combiner_ = other.combiner_;
-      disabled_ = other.disabled_;
+      Enabled = other.Enabled;
       notificationChannels_ = other.notificationChannels_.Clone();
       CreationRecord = other.creationRecord_ != null ? other.CreationRecord.Clone() : null;
       MutationRecord = other.mutationRecord_ != null ? other.MutationRecord.Clone() : null;
@@ -138,8 +141,8 @@ namespace Google.Cloud.Monitoring.V3 {
     /// `[ALERT_POLICY_ID]` is assigned by Stackdriver Monitoring when the policy
     /// is created.  When calling the
     /// [alertPolicies.create][google.monitoring.v3.AlertPolicyService.CreateAlertPolicy]
-    /// method, do not include the `name` field in the alert policy passed as part
-    /// of request.
+    /// method, do not include the `name` field in the alerting policy passed as
+    /// part of the request.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -155,7 +158,8 @@ namespace Google.Cloud.Monitoring.V3 {
     /// <summary>
     /// A short name or phrase used to identify the policy in dashboards,
     /// notifications, and incidents. To avoid confusion, don't use the same
-    /// display name for multiple policies in the same project.
+    /// display name for multiple policies in the same project. The name is
+    /// limited to 512 Unicode characters.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string DisplayName {
@@ -172,7 +176,7 @@ namespace Google.Cloud.Monitoring.V3 {
     /// Documentation that is included with notifications and incidents related to
     /// this policy. Best practice is for the documentation to include information
     /// to help responders understand, mitigate, escalate, and/or correct the
-    /// underlying problems detected by the alert policy.  Notification channels
+    /// underlying problems detected by the alerting policy.  Notification channels
     /// that have limited capacity might not show this documentation.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -233,18 +237,22 @@ namespace Google.Cloud.Monitoring.V3 {
       }
     }
 
-    /// <summary>Field number for the "disabled" field.</summary>
-    public const int DisabledFieldNumber = 7;
-    private bool disabled_;
+    /// <summary>Field number for the "enabled" field.</summary>
+    public const int EnabledFieldNumber = 17;
+    private static readonly pb::FieldCodec<bool?> _single_enabled_codec = pb::FieldCodec.ForStructWrapper<bool>(138);
+    private bool? enabled_;
     /// <summary>
-    /// Whether or not the policy is disabled. Policies that are disabled do not
-    /// produce notifications or incidents.
+    /// Whether or not the policy is enabled. On write, the default interpretation
+    /// if unset is that the policy is enabled. On read, clients should not make
+    /// any assumption about the state if it has not been populated. The
+    /// field should always be populated on List and Get operations, unless
+    /// a field projection has been specified that strips it out.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
-    public bool Disabled {
-      get { return disabled_; }
+    public bool? Enabled {
+      get { return enabled_; }
       set {
-        disabled_ = value;
+        enabled_ = value;
       }
     }
 
@@ -273,7 +281,7 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int CreationRecordFieldNumber = 10;
     private global::Google.Cloud.Monitoring.V3.MutationRecord creationRecord_;
     /// <summary>
-    /// A record of the creation of the alert policy.
+    /// A record of the creation of the alerting policy.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Cloud.Monitoring.V3.MutationRecord CreationRecord {
@@ -287,7 +295,7 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int MutationRecordFieldNumber = 11;
     private global::Google.Cloud.Monitoring.V3.MutationRecord mutationRecord_;
     /// <summary>
-    /// A record of the most recent change to the alert policy.
+    /// A record of the most recent change to the alerting policy.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public global::Google.Cloud.Monitoring.V3.MutationRecord MutationRecord {
@@ -316,7 +324,7 @@ namespace Google.Cloud.Monitoring.V3 {
       if (!UserLabels.Equals(other.UserLabels)) return false;
       if(!conditions_.Equals(other.conditions_)) return false;
       if (Combiner != other.Combiner) return false;
-      if (Disabled != other.Disabled) return false;
+      if (Enabled != other.Enabled) return false;
       if(!notificationChannels_.Equals(other.notificationChannels_)) return false;
       if (!object.Equals(CreationRecord, other.CreationRecord)) return false;
       if (!object.Equals(MutationRecord, other.MutationRecord)) return false;
@@ -332,7 +340,7 @@ namespace Google.Cloud.Monitoring.V3 {
       hash ^= UserLabels.GetHashCode();
       hash ^= conditions_.GetHashCode();
       if (Combiner != 0) hash ^= Combiner.GetHashCode();
-      if (Disabled != false) hash ^= Disabled.GetHashCode();
+      if (enabled_ != null) hash ^= Enabled.GetHashCode();
       hash ^= notificationChannels_.GetHashCode();
       if (creationRecord_ != null) hash ^= CreationRecord.GetHashCode();
       if (mutationRecord_ != null) hash ^= MutationRecord.GetHashCode();
@@ -358,10 +366,6 @@ namespace Google.Cloud.Monitoring.V3 {
         output.WriteRawTag(48);
         output.WriteEnum((int) Combiner);
       }
-      if (Disabled != false) {
-        output.WriteRawTag(56);
-        output.WriteBool(Disabled);
-      }
       if (creationRecord_ != null) {
         output.WriteRawTag(82);
         output.WriteMessage(CreationRecord);
@@ -377,6 +381,9 @@ namespace Google.Cloud.Monitoring.V3 {
       }
       notificationChannels_.WriteTo(output, _repeated_notificationChannels_codec);
       userLabels_.WriteTo(output, _map_userLabels_codec);
+      if (enabled_ != null) {
+        _single_enabled_codec.WriteTagAndValue(output, Enabled);
+      }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -396,8 +403,8 @@ namespace Google.Cloud.Monitoring.V3 {
       if (Combiner != 0) {
         size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Combiner);
       }
-      if (Disabled != false) {
-        size += 1 + 1;
+      if (enabled_ != null) {
+        size += _single_enabled_codec.CalculateSizeWithTag(Enabled);
       }
       size += notificationChannels_.CalculateSize(_repeated_notificationChannels_codec);
       if (creationRecord_ != null) {
@@ -431,8 +438,10 @@ namespace Google.Cloud.Monitoring.V3 {
       if (other.Combiner != 0) {
         Combiner = other.Combiner;
       }
-      if (other.Disabled != false) {
-        Disabled = other.Disabled;
+      if (other.enabled_ != null) {
+        if (enabled_ == null || other.Enabled != false) {
+          Enabled = other.Enabled;
+        }
       }
       notificationChannels_.Add(other.notificationChannels_);
       if (other.creationRecord_ != null) {
@@ -469,10 +478,6 @@ namespace Google.Cloud.Monitoring.V3 {
             combiner_ = (global::Google.Cloud.Monitoring.V3.AlertPolicy.Types.ConditionCombinerType) input.ReadEnum();
             break;
           }
-          case 56: {
-            Disabled = input.ReadBool();
-            break;
-          }
           case 82: {
             if (creationRecord_ == null) {
               creationRecord_ = new global::Google.Cloud.Monitoring.V3.MutationRecord();
@@ -506,6 +511,13 @@ namespace Google.Cloud.Monitoring.V3 {
             userLabels_.AddEntriesFrom(input, _map_userLabels_codec);
             break;
           }
+          case 138: {
+            bool? value = _single_enabled_codec.Read(input);
+            if (enabled_ == null || value != false) {
+              Enabled = value;
+            }
+            break;
+          }
         }
       }
     }
@@ -534,6 +546,13 @@ namespace Google.Cloud.Monitoring.V3 {
         /// is created if any of the listed conditions is met.
         /// </summary>
         [pbr::OriginalName("OR")] Or = 2,
+        /// <summary>
+        /// Combine conditions using logical 'AND' operator. Unlike the regular
+        /// "AND" option, this one requires that not only are all conditions
+        /// satisfied but there is at least one resource such that all conditions
+        /// are simultaneously satisfied for the given resource.
+        /// </summary>
+        [pbr::OriginalName("AND_WITH_MATCHING_RESOURCE")] AndWithMatchingResource = 3,
       }
 
       /// <summary>
@@ -577,6 +596,8 @@ namespace Google.Cloud.Monitoring.V3 {
         private string content_ = "";
         /// <summary>
         /// The text of the documentation, interpreted according to `mime_type`.
+        /// The content may not exceed 8,192 Unicode characters and may not exceed
+        /// more than 10,240 bytes when encoded in UTF-8 format, whichever is first.
         /// </summary>
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
         public string Content {
@@ -754,7 +775,7 @@ namespace Google.Cloud.Monitoring.V3 {
         /// When calling the
         /// [alertPolicies.create][google.monitoring.v3.AlertPolicyService.CreateAlertPolicy]
         /// method, do not include the `name` field in the conditions of the
-        /// requested alert policy.  Stackdriver Monitoring creates the
+        /// requested alerting policy.  Stackdriver Monitoring creates the
         /// condition identifiers and includes them in the new policy.
         ///
         /// When calling the
@@ -1218,10 +1239,12 @@ namespace Google.Cloud.Monitoring.V3 {
             /// A [filter](/monitoring/api/v3/filters) that
             /// identifies which time series should be compared with the threshold.
             /// The filter is similar to the one that is specified in the
-            /// [`MetricService.ListTimeSeries` request](/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list)
-            /// (that call is useful to verify the time series that will be retrieved /
+            /// [`MetricService.ListTimeSeries`
+            /// request](/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list) (that
+            /// call is useful to verify the time series that will be retrieved /
             /// processed) and must specify the metric type and optionally may contain
             /// restrictions on resource type, resource labels, and metric labels.
+            /// This field may not exceed 2048 Unicode characters in length.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public string Filter {
@@ -1266,6 +1289,7 @@ namespace Google.Cloud.Monitoring.V3 {
             /// call is useful to verify the time series that will be retrieved /
             /// processed) and must specify the metric type and optionally may contain
             /// restrictions on resource type, resource labels, and metric labels.
+            /// This field may not exceed 2048 Unicode characters in length.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public string DenominatorFilter {
@@ -1606,10 +1630,12 @@ namespace Google.Cloud.Monitoring.V3 {
             /// A [filter](/monitoring/api/v3/filters) that
             /// identifies which time series should be compared with the threshold.
             /// The filter is similar to the one that is specified in the
-            /// [`MetricService.ListTimeSeries` request](/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list)
-            /// (that call is useful to verify the time series that will be retrieved /
+            /// [`MetricService.ListTimeSeries`
+            /// request](/monitoring/api/ref_v3/rest/v3/projects.timeSeries/list) (that
+            /// call is useful to verify the time series that will be retrieved /
             /// processed) and must specify the metric type and optionally may contain
             /// restrictions on resource type, resource labels, and metric labels.
+            /// This field may not exceed 2048 Unicode characters in length.
             /// </summary>
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
             public string Filter {

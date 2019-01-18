@@ -382,6 +382,10 @@ namespace Google.Cloud.Monitoring.V3
         /// The project whose alert policies are to be listed. The format is
         ///
         ///     projects/[PROJECT_ID]
+        ///
+        /// Note that this field names the parent container in which the alerting
+        /// policies to be listed are stored. To retrieve a single alerting policy
+        /// by name, use the [GetAlertPolicy][] operation, instead.
         /// </param>
         /// <param name="pageToken">
         /// The token returned from the previous request.
@@ -417,6 +421,10 @@ namespace Google.Cloud.Monitoring.V3
         /// The project whose alert policies are to be listed. The format is
         ///
         ///     projects/[PROJECT_ID]
+        ///
+        /// Note that this field names the parent container in which the alerting
+        /// policies to be listed are stored. To retrieve a single alerting policy
+        /// by name, use the [GetAlertPolicy][] operation, instead.
         /// </param>
         /// <param name="pageToken">
         /// The token returned from the previous request.
@@ -487,7 +495,7 @@ namespace Google.Cloud.Monitoring.V3
         /// Gets a single alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The alert policy to retrieve. The format is
+        /// The alerting policy to retrieve. The format is
         ///
         ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
         /// </param>
@@ -510,7 +518,7 @@ namespace Google.Cloud.Monitoring.V3
         /// Gets a single alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The alert policy to retrieve. The format is
+        /// The alerting policy to retrieve. The format is
         ///
         ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
         /// </param>
@@ -530,7 +538,7 @@ namespace Google.Cloud.Monitoring.V3
         /// Gets a single alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The alert policy to retrieve. The format is
+        /// The alerting policy to retrieve. The format is
         ///
         ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
         /// </param>
@@ -591,11 +599,17 @@ namespace Google.Cloud.Monitoring.V3
         /// Creates a new alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The project in which to create the policy. The format is
+        /// The project in which to create the alerting policy. The format is
         /// `projects/[PROJECT_ID]`.
+        ///
+        /// Note that this field names the parent container in which the alerting
+        /// policy will be written, not the name of the created policy. The alerting
+        /// policy that is returned will have a name that contains a normalized
+        /// representation of this name as a prefix but adds a suffix of the form
+        /// "/alertPolicies/[POLICY_ID]", identifying the policy in the container.
         /// </param>
         /// <param name="alertPolicy">
-        /// The requested alert policy. You should omit the `name` field in this
+        /// The requested alerting policy. You should omit the `name` field in this
         /// policy. The name will be returned in the new policy, including
         /// a new [ALERT_POLICY_ID] value.
         /// </param>
@@ -620,11 +634,17 @@ namespace Google.Cloud.Monitoring.V3
         /// Creates a new alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The project in which to create the policy. The format is
+        /// The project in which to create the alerting policy. The format is
         /// `projects/[PROJECT_ID]`.
+        ///
+        /// Note that this field names the parent container in which the alerting
+        /// policy will be written, not the name of the created policy. The alerting
+        /// policy that is returned will have a name that contains a normalized
+        /// representation of this name as a prefix but adds a suffix of the form
+        /// "/alertPolicies/[POLICY_ID]", identifying the policy in the container.
         /// </param>
         /// <param name="alertPolicy">
-        /// The requested alert policy. You should omit the `name` field in this
+        /// The requested alerting policy. You should omit the `name` field in this
         /// policy. The name will be returned in the new policy, including
         /// a new [ALERT_POLICY_ID] value.
         /// </param>
@@ -646,11 +666,17 @@ namespace Google.Cloud.Monitoring.V3
         /// Creates a new alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The project in which to create the policy. The format is
+        /// The project in which to create the alerting policy. The format is
         /// `projects/[PROJECT_ID]`.
+        ///
+        /// Note that this field names the parent container in which the alerting
+        /// policy will be written, not the name of the created policy. The alerting
+        /// policy that is returned will have a name that contains a normalized
+        /// representation of this name as a prefix but adds a suffix of the form
+        /// "/alertPolicies/[POLICY_ID]", identifying the policy in the container.
         /// </param>
         /// <param name="alertPolicy">
-        /// The requested alert policy. You should omit the `name` field in this
+        /// The requested alerting policy. You should omit the `name` field in this
         /// policy. The name will be returned in the new policy, including
         /// a new [ALERT_POLICY_ID] value.
         /// </param>
@@ -713,7 +739,7 @@ namespace Google.Cloud.Monitoring.V3
         /// Deletes an alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The alert policy to delete. The format is:
+        /// The alerting policy to delete. The format is:
         ///
         ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
         ///
@@ -738,7 +764,7 @@ namespace Google.Cloud.Monitoring.V3
         /// Deletes an alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The alert policy to delete. The format is:
+        /// The alerting policy to delete. The format is:
         ///
         ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
         ///
@@ -760,7 +786,7 @@ namespace Google.Cloud.Monitoring.V3
         /// Deletes an alerting policy.
         /// </summary>
         /// <param name="name">
-        /// The alert policy to delete. The format is:
+        /// The alerting policy to delete. The format is:
         ///
         ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
         ///
@@ -820,22 +846,23 @@ namespace Google.Cloud.Monitoring.V3
         }
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="updateMask">
-        /// Optional. A list of alert policy field names. If this field is not empty,
-        /// each listed field in the existing policy is set to the value of the
-        /// corresponding field in the supplied policy (`alert_policy`), or to the
-        /// field's default value if the field is not in the supplied policy.  Fields
-        /// not listed retain their previous value.  Presently, the `"updateMask"`
-        /// field may list only `"disabled"`, `"notification_channels", or both
-        /// of those fields together.
+        /// Optional. A list of alerting policy field names. If this field is not
+        /// empty, each listed field in the existing alerting policy is set to the
+        /// value of the corresponding field in the supplied policy (`alert_policy`),
+        /// or to the field's default value if the field is not in the supplied
+        /// alerting policy.  Fields not listed retain their previous value.
+        /// Presently, the `"updateMask"` field may list only `"disabled"`,
+        /// `"notification_channels", or both of those fields together.
         ///
-        /// If this field is empty, then the supplied policy replaces the existing
-        /// policy. It is the same as deleting the existing policy and adding the
-        /// supplied policy, except for the following:
+        /// If this field is empty, then the supplied alerting policy replaces the
+        /// existing policy. It is the same as deleting the existing policy and
+        /// adding the supplied policy, except for the following:
         ///
         /// +   The new policy will have the same [ALERT_POLICY_ID] as the former
         ///     policy. This gives you continuity with the former policy in your
@@ -846,7 +873,7 @@ namespace Google.Cloud.Monitoring.V3
         ///     then a new [CONDITION_ID] is created.
         /// </param>
         /// <param name="alertPolicy">
-        /// Required. The updated alert policy or the updated values for the
+        /// Required. The updated alerting policy or the updated values for the
         /// fields listed in `update_mask`.
         /// If `update_mask` is not empty, any fields in this policy that are
         /// not in `update_mask` are ignored.
@@ -869,22 +896,23 @@ namespace Google.Cloud.Monitoring.V3
                 callSettings);
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="updateMask">
-        /// Optional. A list of alert policy field names. If this field is not empty,
-        /// each listed field in the existing policy is set to the value of the
-        /// corresponding field in the supplied policy (`alert_policy`), or to the
-        /// field's default value if the field is not in the supplied policy.  Fields
-        /// not listed retain their previous value.  Presently, the `"updateMask"`
-        /// field may list only `"disabled"`, `"notification_channels", or both
-        /// of those fields together.
+        /// Optional. A list of alerting policy field names. If this field is not
+        /// empty, each listed field in the existing alerting policy is set to the
+        /// value of the corresponding field in the supplied policy (`alert_policy`),
+        /// or to the field's default value if the field is not in the supplied
+        /// alerting policy.  Fields not listed retain their previous value.
+        /// Presently, the `"updateMask"` field may list only `"disabled"`,
+        /// `"notification_channels", or both of those fields together.
         ///
-        /// If this field is empty, then the supplied policy replaces the existing
-        /// policy. It is the same as deleting the existing policy and adding the
-        /// supplied policy, except for the following:
+        /// If this field is empty, then the supplied alerting policy replaces the
+        /// existing policy. It is the same as deleting the existing policy and
+        /// adding the supplied policy, except for the following:
         ///
         /// +   The new policy will have the same [ALERT_POLICY_ID] as the former
         ///     policy. This gives you continuity with the former policy in your
@@ -895,7 +923,7 @@ namespace Google.Cloud.Monitoring.V3
         ///     then a new [CONDITION_ID] is created.
         /// </param>
         /// <param name="alertPolicy">
-        /// Required. The updated alert policy or the updated values for the
+        /// Required. The updated alerting policy or the updated values for the
         /// fields listed in `update_mask`.
         /// If `update_mask` is not empty, any fields in this policy that are
         /// not in `update_mask` are ignored.
@@ -915,22 +943,23 @@ namespace Google.Cloud.Monitoring.V3
                 CallSettings.FromCancellationToken(cancellationToken));
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="updateMask">
-        /// Optional. A list of alert policy field names. If this field is not empty,
-        /// each listed field in the existing policy is set to the value of the
-        /// corresponding field in the supplied policy (`alert_policy`), or to the
-        /// field's default value if the field is not in the supplied policy.  Fields
-        /// not listed retain their previous value.  Presently, the `"updateMask"`
-        /// field may list only `"disabled"`, `"notification_channels", or both
-        /// of those fields together.
+        /// Optional. A list of alerting policy field names. If this field is not
+        /// empty, each listed field in the existing alerting policy is set to the
+        /// value of the corresponding field in the supplied policy (`alert_policy`),
+        /// or to the field's default value if the field is not in the supplied
+        /// alerting policy.  Fields not listed retain their previous value.
+        /// Presently, the `"updateMask"` field may list only `"disabled"`,
+        /// `"notification_channels", or both of those fields together.
         ///
-        /// If this field is empty, then the supplied policy replaces the existing
-        /// policy. It is the same as deleting the existing policy and adding the
-        /// supplied policy, except for the following:
+        /// If this field is empty, then the supplied alerting policy replaces the
+        /// existing policy. It is the same as deleting the existing policy and
+        /// adding the supplied policy, except for the following:
         ///
         /// +   The new policy will have the same [ALERT_POLICY_ID] as the former
         ///     policy. This gives you continuity with the former policy in your
@@ -941,7 +970,7 @@ namespace Google.Cloud.Monitoring.V3
         ///     then a new [CONDITION_ID] is created.
         /// </param>
         /// <param name="alertPolicy">
-        /// Required. The updated alert policy or the updated values for the
+        /// Required. The updated alerting policy or the updated values for the
         /// fields listed in `update_mask`.
         /// If `update_mask` is not empty, any fields in this policy that are
         /// not in `update_mask` are ignored.
@@ -964,9 +993,10 @@ namespace Google.Cloud.Monitoring.V3
                 callSettings);
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="request">
         /// The request object containing all of the parameters for the API call.
@@ -985,9 +1015,10 @@ namespace Google.Cloud.Monitoring.V3
         }
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="request">
         /// The request object containing all of the parameters for the API call.
@@ -1216,9 +1247,10 @@ namespace Google.Cloud.Monitoring.V3
         }
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="request">
         /// The request object containing all of the parameters for the API call.
@@ -1238,9 +1270,10 @@ namespace Google.Cloud.Monitoring.V3
         }
 
         /// <summary>
-        /// Updates an alert policy. You can either replace the entire policy with a
-        /// new one or replace only certain fields in the current policy by specifying
-        /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+        /// Updates an alerting policy. You can either replace the entire policy with
+        /// a new one or replace only certain fields in the current alerting policy by
+        /// specifying the fields to be updated via `"updateMask"`. Returns the
+        /// updated alerting policy.
         /// </summary>
         /// <param name="request">
         /// The request object containing all of the parameters for the API call.

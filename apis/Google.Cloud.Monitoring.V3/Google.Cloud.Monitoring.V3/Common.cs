@@ -32,12 +32,12 @@ namespace Google.Cloud.Monitoring.V3 {
             "IAEoCzIYLmdvb2dsZS5hcGkuRGlzdHJpYnV0aW9uSABCBwoFdmFsdWUibAoM",
             "VGltZUludGVydmFsEiwKCGVuZF90aW1lGAIgASgLMhouZ29vZ2xlLnByb3Rv",
             "YnVmLlRpbWVzdGFtcBIuCgpzdGFydF90aW1lGAEgASgLMhouZ29vZ2xlLnBy",
-            "b3RvYnVmLlRpbWVzdGFtcCLkBgoLQWdncmVnYXRpb24SMwoQYWxpZ25tZW50",
+            "b3RvYnVmLlRpbWVzdGFtcCKtBwoLQWdncmVnYXRpb24SMwoQYWxpZ25tZW50",
             "X3BlcmlvZBgBIAEoCzIZLmdvb2dsZS5wcm90b2J1Zi5EdXJhdGlvbhJFChJw",
             "ZXJfc2VyaWVzX2FsaWduZXIYAiABKA4yKS5nb29nbGUubW9uaXRvcmluZy52",
             "My5BZ2dyZWdhdGlvbi5BbGlnbmVyEkcKFGNyb3NzX3Nlcmllc19yZWR1Y2Vy",
             "GAQgASgOMikuZ29vZ2xlLm1vbml0b3JpbmcudjMuQWdncmVnYXRpb24uUmVk",
-            "dWNlchIXCg9ncm91cF9ieV9maWVsZHMYBSADKAki2gIKB0FsaWduZXISDgoK",
+            "dWNlchIXCg9ncm91cF9ieV9maWVsZHMYBSADKAkiiwMKB0FsaWduZXISDgoK",
             "QUxJR05fTk9ORRAAEg8KC0FMSUdOX0RFTFRBEAESDgoKQUxJR05fUkFURRAC",
             "EhUKEUFMSUdOX0lOVEVSUE9MQVRFEAMSFAoQQUxJR05fTkVYVF9PTERFUhAE",
             "Eg0KCUFMSUdOX01JThAKEg0KCUFMSUdOX01BWBALEg4KCkFMSUdOX01FQU4Q",
@@ -45,28 +45,40 @@ namespace Google.Cloud.Monitoring.V3 {
             "RERFVhAPEhQKEEFMSUdOX0NPVU5UX1RSVUUQEBIXChNBTElHTl9GUkFDVElP",
             "Tl9UUlVFEBESFwoTQUxJR05fUEVSQ0VOVElMRV85ORASEhcKE0FMSUdOX1BF",
             "UkNFTlRJTEVfOTUQExIXChNBTElHTl9QRVJDRU5USUxFXzUwEBQSFwoTQUxJ",
-            "R05fUEVSQ0VOVElMRV8wNRAVIpkCCgdSZWR1Y2VyEg8KC1JFRFVDRV9OT05F",
-            "EAASDwoLUkVEVUNFX01FQU4QARIOCgpSRURVQ0VfTUlOEAISDgoKUkVEVUNF",
-            "X01BWBADEg4KClJFRFVDRV9TVU0QBBIRCg1SRURVQ0VfU1REREVWEAUSEAoM",
-            "UkVEVUNFX0NPVU5UEAYSFQoRUkVEVUNFX0NPVU5UX1RSVUUQBxIYChRSRURV",
-            "Q0VfRlJBQ1RJT05fVFJVRRAIEhgKFFJFRFVDRV9QRVJDRU5USUxFXzk5EAkS",
-            "GAoUUkVEVUNFX1BFUkNFTlRJTEVfOTUQChIYChRSRURVQ0VfUEVSQ0VOVElM",
-            "RV81MBALEhgKFFJFRFVDRV9QRVJDRU5USUxFXzA1EAwqngEKDkNvbXBhcmlz",
+            "R05fUEVSQ0VOVElMRV8wNRAVEhgKFEFMSUdOX1BFUkNFTlRfQ0hBTkdFEBcS",
+            "FQoRQUxJR05fQ09VTlRfRkFMU0UQGCKxAgoHUmVkdWNlchIPCgtSRURVQ0Vf",
+            "Tk9ORRAAEg8KC1JFRFVDRV9NRUFOEAESDgoKUkVEVUNFX01JThACEg4KClJF",
+            "RFVDRV9NQVgQAxIOCgpSRURVQ0VfU1VNEAQSEQoNUkVEVUNFX1NURERFVhAF",
+            "EhAKDFJFRFVDRV9DT1VOVBAGEhUKEVJFRFVDRV9DT1VOVF9UUlVFEAcSGAoU",
+            "UkVEVUNFX0ZSQUNUSU9OX1RSVUUQCBIYChRSRURVQ0VfUEVSQ0VOVElMRV85",
+            "ORAJEhgKFFJFRFVDRV9QRVJDRU5USUxFXzk1EAoSGAoUUkVEVUNFX1BFUkNF",
+            "TlRJTEVfNTAQCxIYChRSRURVQ0VfUEVSQ0VOVElMRV8wNRAMEhYKElJFRFVD",
+            "RV9DT1VOVF9GQUxTRRAPIvYCChRQaWNrVGltZVNlcmllc0ZpbHRlchJJCg5y",
+            "YW5raW5nX21ldGhvZBgBIAEoDjIxLmdvb2dsZS5tb25pdG9yaW5nLnYzLlBp",
+            "Y2tUaW1lU2VyaWVzRmlsdGVyLk1ldGhvZBIXCg9udW1fdGltZV9zZXJpZXMY",
+            "AiABKAUSRwoJZGlyZWN0aW9uGAMgASgOMjQuZ29vZ2xlLm1vbml0b3Jpbmcu",
+            "djMuUGlja1RpbWVTZXJpZXNGaWx0ZXIuRGlyZWN0aW9uInQKBk1ldGhvZBIW",
+            "ChJNRVRIT0RfVU5TUEVDSUZJRUQQABIPCgtNRVRIT0RfTUVBThABEg4KCk1F",
+            "VEhPRF9NQVgQAhIOCgpNRVRIT0RfTUlOEAMSDgoKTUVUSE9EX1NVTRAEEhEK",
+            "DU1FVEhPRF9MQVRFU1QQBSI7CglEaXJlY3Rpb24SGQoVRElSRUNUSU9OX1VO",
+            "U1BFQ0lGSUVEEAASBwoDVE9QEAESCgoGQk9UVE9NEAIqngEKDkNvbXBhcmlz",
             "b25UeXBlEhoKFkNPTVBBUklTT05fVU5TUEVDSUZJRUQQABIRCg1DT01QQVJJ",
             "U09OX0dUEAESEQoNQ09NUEFSSVNPTl9HRRACEhEKDUNPTVBBUklTT05fTFQQ",
             "AxIRCg1DT01QQVJJU09OX0xFEAQSEQoNQ09NUEFSSVNPTl9FURAFEhEKDUNP",
             "TVBBUklTT05fTkUQBipdCgtTZXJ2aWNlVGllchIcChhTRVJWSUNFX1RJRVJf",
             "VU5TUEVDSUZJRUQQABIWChJTRVJWSUNFX1RJRVJfQkFTSUMQARIYChRTRVJW",
-            "SUNFX1RJRVJfUFJFTUlVTRACQoYBChhjb20uZ29vZ2xlLm1vbml0b3Jpbmcu",
+            "SUNFX1RJRVJfUFJFTUlVTRACQqMBChhjb20uZ29vZ2xlLm1vbml0b3Jpbmcu",
             "djNCC0NvbW1vblByb3RvUAFaPmdvb2dsZS5nb2xhbmcub3JnL2dlbnByb3Rv",
             "L2dvb2dsZWFwaXMvbW9uaXRvcmluZy92Mzttb25pdG9yaW5nqgIaR29vZ2xl",
-            "LkNsb3VkLk1vbml0b3JpbmcuVjNiBnByb3RvMw=="));
+            "LkNsb3VkLk1vbml0b3JpbmcuVjPKAhpHb29nbGVcQ2xvdWRcTW9uaXRvcmlu",
+            "Z1xWM2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Api.DistributionReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.DurationReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.TimestampReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::Google.Cloud.Monitoring.V3.ComparisonType), typeof(global::Google.Cloud.Monitoring.V3.ServiceTier), }, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.TypedValue), global::Google.Cloud.Monitoring.V3.TypedValue.Parser, new[]{ "BoolValue", "Int64Value", "DoubleValue", "StringValue", "DistributionValue" }, new[]{ "Value" }, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.TimeInterval), global::Google.Cloud.Monitoring.V3.TimeInterval.Parser, new[]{ "EndTime", "StartTime" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.Aggregation), global::Google.Cloud.Monitoring.V3.Aggregation.Parser, new[]{ "AlignmentPeriod", "PerSeriesAligner", "CrossSeriesReducer", "GroupByFields" }, null, new[]{ typeof(global::Google.Cloud.Monitoring.V3.Aggregation.Types.Aligner), typeof(global::Google.Cloud.Monitoring.V3.Aggregation.Types.Reducer) }, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.Aggregation), global::Google.Cloud.Monitoring.V3.Aggregation.Parser, new[]{ "AlignmentPeriod", "PerSeriesAligner", "CrossSeriesReducer", "GroupByFields" }, null, new[]{ typeof(global::Google.Cloud.Monitoring.V3.Aggregation.Types.Aligner), typeof(global::Google.Cloud.Monitoring.V3.Aggregation.Types.Reducer) }, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter), global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Parser, new[]{ "RankingMethod", "NumTimeSeries", "Direction" }, null, new[]{ typeof(global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Method), typeof(global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Direction) }, null)
           }));
     }
     #endregion
@@ -1007,6 +1019,8 @@ namespace Google.Cloud.Monitoring.V3 {
         /// [DOUBLE][google.api.MetricDescriptor.ValueType.DOUBLE].
         /// </summary>
         [pbr::OriginalName("ALIGN_PERCENTILE_05")] AlignPercentile05 = 21,
+        [pbr::OriginalName("ALIGN_PERCENT_CHANGE")] AlignPercentChange = 23,
+        [pbr::OriginalName("ALIGN_COUNT_FALSE")] AlignCountFalse = 24,
       }
 
       /// <summary>
@@ -1105,6 +1119,250 @@ namespace Google.Cloud.Monitoring.V3 {
         /// [DOUBLE][google.api.MetricDescriptor.ValueType.DOUBLE]
         /// </summary>
         [pbr::OriginalName("REDUCE_PERCENTILE_05")] ReducePercentile05 = 12,
+        [pbr::OriginalName("REDUCE_COUNT_FALSE")] ReduceCountFalse = 15,
+      }
+
+    }
+    #endregion
+
+  }
+
+  /// <summary>
+  /// Describes a ranking-based time series filter. Each input time series is
+  /// ranked with an aligner. The filter lets through up to `num_time_series` time
+  /// series, selecting them based on the relative ranking.
+  /// </summary>
+  public sealed partial class PickTimeSeriesFilter : pb::IMessage<PickTimeSeriesFilter> {
+    private static readonly pb::MessageParser<PickTimeSeriesFilter> _parser = new pb::MessageParser<PickTimeSeriesFilter>(() => new PickTimeSeriesFilter());
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pb::MessageParser<PickTimeSeriesFilter> Parser { get { return _parser; } }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static pbr::MessageDescriptor Descriptor {
+      get { return global::Google.Cloud.Monitoring.V3.CommonReflection.Descriptor.MessageTypes[3]; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    pbr::MessageDescriptor pb::IMessage.Descriptor {
+      get { return Descriptor; }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PickTimeSeriesFilter() {
+      OnConstruction();
+    }
+
+    partial void OnConstruction();
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PickTimeSeriesFilter(PickTimeSeriesFilter other) : this() {
+      rankingMethod_ = other.rankingMethod_;
+      numTimeSeries_ = other.numTimeSeries_;
+      direction_ = other.direction_;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public PickTimeSeriesFilter Clone() {
+      return new PickTimeSeriesFilter(this);
+    }
+
+    /// <summary>Field number for the "ranking_method" field.</summary>
+    public const int RankingMethodFieldNumber = 1;
+    private global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Method rankingMethod_ = 0;
+    /// <summary>
+    /// `rankingMethod` is applied to each time series independently to produce the
+    /// value which will be used to compare the time series to other time series.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Method RankingMethod {
+      get { return rankingMethod_; }
+      set {
+        rankingMethod_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "num_time_series" field.</summary>
+    public const int NumTimeSeriesFieldNumber = 2;
+    private int numTimeSeries_;
+    /// <summary>
+    /// How many time series to return.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int NumTimeSeries {
+      get { return numTimeSeries_; }
+      set {
+        numTimeSeries_ = value;
+      }
+    }
+
+    /// <summary>Field number for the "direction" field.</summary>
+    public const int DirectionFieldNumber = 3;
+    private global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Direction direction_ = 0;
+    /// <summary>
+    /// How to use the ranking to select time series that pass through the filter.
+    /// </summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Direction Direction {
+      get { return direction_; }
+      set {
+        direction_ = value;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override bool Equals(object other) {
+      return Equals(other as PickTimeSeriesFilter);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public bool Equals(PickTimeSeriesFilter other) {
+      if (ReferenceEquals(other, null)) {
+        return false;
+      }
+      if (ReferenceEquals(other, this)) {
+        return true;
+      }
+      if (RankingMethod != other.RankingMethod) return false;
+      if (NumTimeSeries != other.NumTimeSeries) return false;
+      if (Direction != other.Direction) return false;
+      return true;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override int GetHashCode() {
+      int hash = 1;
+      if (RankingMethod != 0) hash ^= RankingMethod.GetHashCode();
+      if (NumTimeSeries != 0) hash ^= NumTimeSeries.GetHashCode();
+      if (Direction != 0) hash ^= Direction.GetHashCode();
+      return hash;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public override string ToString() {
+      return pb::JsonFormatter.ToDiagnosticString(this);
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void WriteTo(pb::CodedOutputStream output) {
+      if (RankingMethod != 0) {
+        output.WriteRawTag(8);
+        output.WriteEnum((int) RankingMethod);
+      }
+      if (NumTimeSeries != 0) {
+        output.WriteRawTag(16);
+        output.WriteInt32(NumTimeSeries);
+      }
+      if (Direction != 0) {
+        output.WriteRawTag(24);
+        output.WriteEnum((int) Direction);
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public int CalculateSize() {
+      int size = 0;
+      if (RankingMethod != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) RankingMethod);
+      }
+      if (NumTimeSeries != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeInt32Size(NumTimeSeries);
+      }
+      if (Direction != 0) {
+        size += 1 + pb::CodedOutputStream.ComputeEnumSize((int) Direction);
+      }
+      return size;
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(PickTimeSeriesFilter other) {
+      if (other == null) {
+        return;
+      }
+      if (other.RankingMethod != 0) {
+        RankingMethod = other.RankingMethod;
+      }
+      if (other.NumTimeSeries != 0) {
+        NumTimeSeries = other.NumTimeSeries;
+      }
+      if (other.Direction != 0) {
+        Direction = other.Direction;
+      }
+    }
+
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public void MergeFrom(pb::CodedInputStream input) {
+      uint tag;
+      while ((tag = input.ReadTag()) != 0) {
+        switch(tag) {
+          default:
+            input.SkipLastField();
+            break;
+          case 8: {
+            rankingMethod_ = (global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Method) input.ReadEnum();
+            break;
+          }
+          case 16: {
+            NumTimeSeries = input.ReadInt32();
+            break;
+          }
+          case 24: {
+            direction_ = (global::Google.Cloud.Monitoring.V3.PickTimeSeriesFilter.Types.Direction) input.ReadEnum();
+            break;
+          }
+        }
+      }
+    }
+
+    #region Nested types
+    /// <summary>Container for nested types declared in the PickTimeSeriesFilter message type.</summary>
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public static partial class Types {
+      /// <summary>
+      /// The value reducers that can be applied to a PickTimeSeriesFilter.
+      /// </summary>
+      public enum Method {
+        /// <summary>
+        /// Not allowed in well-formed requests.
+        /// </summary>
+        [pbr::OriginalName("METHOD_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Select the mean of all values.
+        /// </summary>
+        [pbr::OriginalName("METHOD_MEAN")] Mean = 1,
+        /// <summary>
+        /// Select the maximum value.
+        /// </summary>
+        [pbr::OriginalName("METHOD_MAX")] Max = 2,
+        /// <summary>
+        /// Select the minimum value.
+        /// </summary>
+        [pbr::OriginalName("METHOD_MIN")] Min = 3,
+        /// <summary>
+        /// Compute the sum of all values.
+        /// </summary>
+        [pbr::OriginalName("METHOD_SUM")] Sum = 4,
+        /// <summary>
+        /// Select the most recent value.
+        /// </summary>
+        [pbr::OriginalName("METHOD_LATEST")] Latest = 5,
+      }
+
+      /// <summary>
+      /// Describes the ranking directions.
+      /// </summary>
+      public enum Direction {
+        /// <summary>
+        /// Not allowed in well-formed requests.
+        /// </summary>
+        [pbr::OriginalName("DIRECTION_UNSPECIFIED")] Unspecified = 0,
+        /// <summary>
+        /// Pass the highest ranking inputs.
+        /// </summary>
+        [pbr::OriginalName("TOP")] Top = 1,
+        /// <summary>
+        /// Pass the lowest ranking inputs.
+        /// </summary>
+        [pbr::OriginalName("BOTTOM")] Bottom = 2,
       }
 
     }

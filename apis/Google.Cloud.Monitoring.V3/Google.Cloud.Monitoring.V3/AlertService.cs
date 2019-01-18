@@ -56,10 +56,11 @@ namespace Google.Cloud.Monitoring.V3 {
             "Li5nb29nbGUubW9uaXRvcmluZy52My5VcGRhdGVBbGVydFBvbGljeVJlcXVl",
             "c3QaIS5nb29nbGUubW9uaXRvcmluZy52My5BbGVydFBvbGljeSJIgtPkkwJC",
             "MjIvdjMve2FsZXJ0X3BvbGljeS5uYW1lPXByb2plY3RzLyovYWxlcnRQb2xp",
-            "Y2llcy8qfToMYWxlcnRfcG9saWN5QowBChhjb20uZ29vZ2xlLm1vbml0b3Jp",
+            "Y2llcy8qfToMYWxlcnRfcG9saWN5QqkBChhjb20uZ29vZ2xlLm1vbml0b3Jp",
             "bmcudjNCEUFsZXJ0U2VydmljZVByb3RvUAFaPmdvb2dsZS5nb2xhbmcub3Jn",
             "L2dlbnByb3RvL2dvb2dsZWFwaXMvbW9uaXRvcmluZy92Mzttb25pdG9yaW5n",
-            "qgIaR29vZ2xlLkNsb3VkLk1vbml0b3JpbmcuVjNiBnByb3RvMw=="));
+            "qgIaR29vZ2xlLkNsb3VkLk1vbml0b3JpbmcuVjPKAhpHb29nbGVcQ2xvdWRc",
+            "TW9uaXRvcmluZ1xWM2IGcHJvdG8z"));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Api.AnnotationsReflection.Descriptor, global::Google.Cloud.Monitoring.V3.AlertReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.FieldMaskReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
@@ -115,8 +116,14 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int NameFieldNumber = 3;
     private string name_ = "";
     /// <summary>
-    /// The project in which to create the policy. The format is
+    /// The project in which to create the alerting policy. The format is
     /// `projects/[PROJECT_ID]`.
+    ///
+    /// Note that this field names the parent container in which the alerting
+    /// policy will be written, not the name of the created policy. The alerting
+    /// policy that is returned will have a name that contains a normalized
+    /// representation of this name as a prefix but adds a suffix of the form
+    /// "/alertPolicies/[POLICY_ID]", identifying the policy in the container.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -130,7 +137,7 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int AlertPolicyFieldNumber = 2;
     private global::Google.Cloud.Monitoring.V3.AlertPolicy alertPolicy_;
     /// <summary>
-    /// The requested alert policy. You should omit the `name` field in this
+    /// The requested alerting policy. You should omit the `name` field in this
     /// policy. The name will be returned in the new policy, including
     /// a new [ALERT_POLICY_ID] value.
     /// </summary>
@@ -277,7 +284,7 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int NameFieldNumber = 3;
     private string name_ = "";
     /// <summary>
-    /// The alert policy to retrieve. The format is
+    /// The alerting policy to retrieve. The format is
     ///
     ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
     /// </summary>
@@ -409,6 +416,10 @@ namespace Google.Cloud.Monitoring.V3 {
     /// The project whose alert policies are to be listed. The format is
     ///
     ///     projects/[PROJECT_ID]
+    ///
+    /// Note that this field names the parent container in which the alerting
+    /// policies to be listed are stored. To retrieve a single alerting policy
+    /// by name, use the [GetAlertPolicy][] operation, instead.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string Name {
@@ -672,9 +683,9 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int NextPageTokenFieldNumber = 2;
     private string nextPageToken_ = "";
     /// <summary>
-    /// If this field is not empty then it must contain the `nextPageToken` value
-    /// returned by a previous call to this method.  Using this field causes the
-    /// method to return additional results from the previous method call.
+    /// If there might be more results than were returned, then this field is set
+    /// to a non-empty value. To see the additional results,
+    /// use that value as `pageToken` in the next call to this method.
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public string NextPageToken {
@@ -807,17 +818,17 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int UpdateMaskFieldNumber = 2;
     private global::Google.Protobuf.WellKnownTypes.FieldMask updateMask_;
     /// <summary>
-    /// Optional. A list of alert policy field names. If this field is not empty,
-    /// each listed field in the existing policy is set to the value of the
-    /// corresponding field in the supplied policy (`alert_policy`), or to the
-    /// field's default value if the field is not in the supplied policy.  Fields
-    /// not listed retain their previous value.  Presently, the `"updateMask"`
-    /// field may list only `"disabled"`, `"notification_channels", or both
-    /// of those fields together.
+    /// Optional. A list of alerting policy field names. If this field is not
+    /// empty, each listed field in the existing alerting policy is set to the
+    /// value of the corresponding field in the supplied policy (`alert_policy`),
+    /// or to the field's default value if the field is not in the supplied
+    /// alerting policy.  Fields not listed retain their previous value.
+    /// Presently, the `"updateMask"` field may list only `"disabled"`,
+    /// `"notification_channels", or both of those fields together.
     ///
-    /// If this field is empty, then the supplied policy replaces the existing
-    /// policy. It is the same as deleting the existing policy and adding the
-    /// supplied policy, except for the following:
+    /// If this field is empty, then the supplied alerting policy replaces the
+    /// existing policy. It is the same as deleting the existing policy and
+    /// adding the supplied policy, except for the following:
     ///
     /// +   The new policy will have the same [ALERT_POLICY_ID] as the former
     ///     policy. This gives you continuity with the former policy in your
@@ -839,7 +850,7 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int AlertPolicyFieldNumber = 3;
     private global::Google.Cloud.Monitoring.V3.AlertPolicy alertPolicy_;
     /// <summary>
-    /// Required. The updated alert policy or the updated values for the
+    /// Required. The updated alerting policy or the updated values for the
     /// fields listed in `update_mask`.
     /// If `update_mask` is not empty, any fields in this policy that are
     /// not in `update_mask` are ignored.
@@ -993,7 +1004,7 @@ namespace Google.Cloud.Monitoring.V3 {
     public const int NameFieldNumber = 3;
     private string name_ = "";
     /// <summary>
-    /// The alert policy to delete. The format is:
+    /// The alerting policy to delete. The format is:
     ///
     ///     projects/[PROJECT_ID]/alertPolicies/[ALERT_POLICY_ID]
     ///

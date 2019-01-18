@@ -446,6 +446,10 @@ namespace Google.Cloud.Monitoring.V3
         /// the notification channel descriptors. The expected syntax is:
         ///
         ///    "projects/[PROJECT_ID]"
+        ///
+        /// Note that this names the parent container in which to look for the
+        /// descriptors; to retrieve a single descriptor by name, use the
+        /// [GetNotificationChannelDescriptor][] operation, instead.
         /// </param>
         /// <param name="pageToken">
         /// The token returned from the previous request.
@@ -483,6 +487,10 @@ namespace Google.Cloud.Monitoring.V3
         /// the notification channel descriptors. The expected syntax is:
         ///
         ///    "projects/[PROJECT_ID]"
+        ///
+        /// Note that this names the parent container in which to look for the
+        /// descriptors; to retrieve a single descriptor by name, use the
+        /// [GetNotificationChannelDescriptor][] operation, instead.
         /// </param>
         /// <param name="pageToken">
         /// The token returned from the previous request.
@@ -557,7 +565,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel type for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannelDescriptors/{channel_type}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannelDescriptors/{channel_type}"`.
         /// </param>
         /// <param name="callSettings">
         /// If not null, applies overrides to this RPC call.
@@ -580,7 +588,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel type for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannelDescriptors/{channel_type}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannelDescriptors/{channel_type}"`.
         /// </param>
         /// <param name="cancellationToken">
         /// A <see cref="CancellationToken"/> to use for this RPC.
@@ -600,7 +608,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel type for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannelDescriptors/{channel_type}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannelDescriptors/{channel_type}"`.
         /// </param>
         /// <param name="callSettings">
         /// If not null, applies overrides to this RPC call.
@@ -662,7 +670,10 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The project on which to execute the request. The format is
-        /// `"projects/{project_id_or_number}"`.
+        /// `"projects/[PROJECT_ID]"`. That is, this names the container
+        /// in which to look for the notification channels; it does not name a
+        /// specific channel. To query a specific channel by name, use the
+        /// [GetNotificationChannel][] operation.
         /// </param>
         /// <param name="pageToken">
         /// The token returned from the previous request.
@@ -696,7 +707,10 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The project on which to execute the request. The format is
-        /// `"projects/{project_id_or_number}"`.
+        /// `"projects/[PROJECT_ID]"`. That is, this names the container
+        /// in which to look for the notification channels; it does not name a
+        /// specific channel. To query a specific channel by name, use the
+        /// [GetNotificationChannel][] operation.
         /// </param>
         /// <param name="pageToken">
         /// The token returned from the previous request.
@@ -772,7 +786,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
         /// </param>
         /// <param name="callSettings">
         /// If not null, applies overrides to this RPC call.
@@ -798,7 +812,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
         /// </param>
         /// <param name="cancellationToken">
         /// A <see cref="CancellationToken"/> to use for this RPC.
@@ -821,7 +835,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
         /// </param>
         /// <param name="callSettings">
         /// If not null, applies overrides to this RPC call.
@@ -889,8 +903,14 @@ namespace Google.Cloud.Monitoring.V3
         /// endpoint such as an email address, SMS number, or pagerduty service.
         /// </summary>
         /// <param name="name">
-        /// The project on which to execute the request. The format is
-        /// `"projects/{project_id_or_number}"`.
+        /// The project on which to execute the request. The format is:
+        ///
+        ///    `"projects/[PROJECT_ID]"`.
+        ///
+        /// Note that this names the container into which the channel will be
+        /// written. This does not name the newly created channel. The resulting
+        /// channel's name will have a normalized version of this field as a prefix,
+        /// but will add "/notificationChannels/[CHANNEL_ID]" to identify the channel.
         /// </param>
         /// <param name="notificationChannel">
         /// The definition of the `NotificationChannel` to create.
@@ -917,8 +937,14 @@ namespace Google.Cloud.Monitoring.V3
         /// endpoint such as an email address, SMS number, or pagerduty service.
         /// </summary>
         /// <param name="name">
-        /// The project on which to execute the request. The format is
-        /// `"projects/{project_id_or_number}"`.
+        /// The project on which to execute the request. The format is:
+        ///
+        ///    `"projects/[PROJECT_ID]"`.
+        ///
+        /// Note that this names the container into which the channel will be
+        /// written. This does not name the newly created channel. The resulting
+        /// channel's name will have a normalized version of this field as a prefix,
+        /// but will add "/notificationChannels/[CHANNEL_ID]" to identify the channel.
         /// </param>
         /// <param name="notificationChannel">
         /// The definition of the `NotificationChannel` to create.
@@ -942,8 +968,14 @@ namespace Google.Cloud.Monitoring.V3
         /// endpoint such as an email address, SMS number, or pagerduty service.
         /// </summary>
         /// <param name="name">
-        /// The project on which to execute the request. The format is
-        /// `"projects/{project_id_or_number}"`.
+        /// The project on which to execute the request. The format is:
+        ///
+        ///    `"projects/[PROJECT_ID]"`.
+        ///
+        /// Note that this names the container into which the channel will be
+        /// written. This does not name the newly created channel. The resulting
+        /// channel's name will have a normalized version of this field as a prefix,
+        /// but will add "/notificationChannels/[CHANNEL_ID]" to identify the channel.
         /// </param>
         /// <param name="notificationChannel">
         /// The definition of the `NotificationChannel` to create.
@@ -1137,7 +1169,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
         /// </param>
         /// <param name="force">
         /// If true, the notification channel will be deleted regardless of its
@@ -1167,7 +1199,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
         /// </param>
         /// <param name="force">
         /// If true, the notification channel will be deleted regardless of its
@@ -1194,7 +1226,7 @@ namespace Google.Cloud.Monitoring.V3
         /// </summary>
         /// <param name="name">
         /// The channel for which to execute the request. The format is
-        /// `"projects/{project_id_or_number}/notificationChannels/{channel_id}"`.
+        /// `"projects/[PROJECT_ID]/notificationChannels/[CHANNEL_ID]"`.
         /// </param>
         /// <param name="force">
         /// If true, the notification channel will be deleted regardless of its

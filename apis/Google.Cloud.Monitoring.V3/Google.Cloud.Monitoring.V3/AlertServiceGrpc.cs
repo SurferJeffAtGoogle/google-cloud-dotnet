@@ -26,7 +26,7 @@ using grpc = global::Grpc.Core;
 namespace Google.Cloud.Monitoring.V3 {
   /// <summary>
   /// The AlertPolicyService API is used to manage (list, create, delete,
-  /// edit) alert policies in Stackdriver Monitoring. An alert policy is
+  /// edit) alert policies in Stackdriver Monitoring. An alerting policy is
   /// a description of the conditions under which some aspect of your
   /// system is considered to be "unhealthy" and the ways to notify
   /// people or services about this state. In addition to using this API, alert
@@ -137,9 +137,10 @@ namespace Google.Cloud.Monitoring.V3 {
       }
 
       /// <summary>
-      /// Updates an alert policy. You can either replace the entire policy with a
-      /// new one or replace only certain fields in the current policy by specifying
-      /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+      /// Updates an alerting policy. You can either replace the entire policy with
+      /// a new one or replace only certain fields in the current alerting policy by
+      /// specifying the fields to be updated via `"updateMask"`. Returns the
+      /// updated alerting policy.
       /// </summary>
       /// <param name="request">The request received from the client.</param>
       /// <param name="context">The context of the server-side call handler being invoked.</param>
@@ -351,9 +352,10 @@ namespace Google.Cloud.Monitoring.V3 {
         return CallInvoker.AsyncUnaryCall(__Method_DeleteAlertPolicy, null, options, request);
       }
       /// <summary>
-      /// Updates an alert policy. You can either replace the entire policy with a
-      /// new one or replace only certain fields in the current policy by specifying
-      /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+      /// Updates an alerting policy. You can either replace the entire policy with
+      /// a new one or replace only certain fields in the current alerting policy by
+      /// specifying the fields to be updated via `"updateMask"`. Returns the
+      /// updated alerting policy.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -365,9 +367,10 @@ namespace Google.Cloud.Monitoring.V3 {
         return UpdateAlertPolicy(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Updates an alert policy. You can either replace the entire policy with a
-      /// new one or replace only certain fields in the current policy by specifying
-      /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+      /// Updates an alerting policy. You can either replace the entire policy with
+      /// a new one or replace only certain fields in the current alerting policy by
+      /// specifying the fields to be updated via `"updateMask"`. Returns the
+      /// updated alerting policy.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
@@ -377,9 +380,10 @@ namespace Google.Cloud.Monitoring.V3 {
         return CallInvoker.BlockingUnaryCall(__Method_UpdateAlertPolicy, null, options, request);
       }
       /// <summary>
-      /// Updates an alert policy. You can either replace the entire policy with a
-      /// new one or replace only certain fields in the current policy by specifying
-      /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+      /// Updates an alerting policy. You can either replace the entire policy with
+      /// a new one or replace only certain fields in the current alerting policy by
+      /// specifying the fields to be updated via `"updateMask"`. Returns the
+      /// updated alerting policy.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="headers">The initial metadata to send with the call. This parameter is optional.</param>
@@ -391,9 +395,10 @@ namespace Google.Cloud.Monitoring.V3 {
         return UpdateAlertPolicyAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       /// <summary>
-      /// Updates an alert policy. You can either replace the entire policy with a
-      /// new one or replace only certain fields in the current policy by specifying
-      /// the fields to be updated via `"updateMask"`. Returns the updated policy.
+      /// Updates an alerting policy. You can either replace the entire policy with
+      /// a new one or replace only certain fields in the current alerting policy by
+      /// specifying the fields to be updated via `"updateMask"`. Returns the
+      /// updated alerting policy.
       /// </summary>
       /// <param name="request">The request to send to the server.</param>
       /// <param name="options">The options for the call.</param>
