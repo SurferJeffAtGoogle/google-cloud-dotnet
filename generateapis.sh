@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -e
+set -x
 
 source toolversions.sh
 declare -r CORE_PROTOS_ROOT=$PROTOBUF_TOOLS_ROOT/tools
@@ -160,38 +160,4 @@ $PROTOC \
   googleapis/google/cloud/oslogin/common/*.proto
 
 # Now the per-API codegen
-generate_api Google.Cloud.Asset.V1Beta1 google/cloud/asset/v1beta1 asset_v1beta1.yaml
-generate_api Google.Cloud.BigQuery.DataTransfer.V1 google/cloud/bigquery/datatransfer/v1 datatransfer.yaml
-generate_api Google.Cloud.Bigtable.Admin.V2 google/bigtable/admin/v2 bigtableadmin.yaml
-generate_api Google.Cloud.Bigtable.V2 google/bigtable/v2 bigtable.yaml
-generate_api Google.Cloud.Container.V1 google/container/v1 container_v1.yaml
-generate_api Google.Cloud.Dataproc.V1 google/cloud/dataproc/v1 v1/dataproc.yaml
-generate_api Google.Cloud.Datastore.V1 google/datastore/v1 datastore.yaml
-generate_api Google.Cloud.Debugger.V2 google/devtools/clouddebugger/v2 clouddebugger.yaml
-generate_api Google.Cloud.Dialogflow.V2 google/cloud/dialogflow/v2 dialogflow_v2.yaml
-generate_api Google.Cloud.Dlp.V2 google/privacy/dlp/v2 dlp_v2.yaml
-generate_api Google.Cloud.ErrorReporting.V1Beta1 google/devtools/clouderrorreporting/v1beta1 errorreporting.yaml
-generate_api Google.Cloud.Firestore.V1 google/firestore/v1 firestore_v1.yaml
-generate_api Google.Cloud.Kms.V1 google/cloud/kms/v1 cloudkms.yaml
-generate_api Google.Cloud.Language.V1 google/cloud/language/v1 language_v1.yaml
-generate_api Google.Cloud.Logging.V2 google/logging/v2 logging.yaml
-generate_api Google.Cloud.Monitoring.V3 google/monitoring/v3 monitoring.yaml
-generate_api Google.Cloud.OsLogin.V1 google/cloud/oslogin/v1 oslogin_v1.yaml
-generate_api Google.Cloud.OsLogin.V1Beta google/cloud/oslogin/v1beta oslogin_v1beta.yaml
-generate_api Google.Cloud.PubSub.V1 google/pubsub/v1 pubsub.yaml
-generate_api Google.Cloud.Redis.V1 google/cloud/redis/v1 redis_v1.yaml
-generate_api Google.Cloud.Redis.V1Beta1 google/cloud/redis/v1beta1 redis_v1beta1.yaml
-generate_api Google.Cloud.Scheduler.V1Beta1 google/cloud/scheduler/v1beta1 cloudscheduler_v1beta1.yaml
-generate_api Google.Cloud.Spanner.Admin.Database.V1 google/spanner/admin/database/v1 spanner_admin_database.yaml
-generate_api Google.Cloud.Spanner.Admin.Instance.V1 google/spanner/admin/instance/v1 spanner_admin_instance.yaml
-generate_api Google.Cloud.Spanner.V1 google/spanner/v1 spanner.yaml
-generate_api Google.Cloud.Speech.V1 google/cloud/speech/v1 speech_v1.yaml
-generate_api Google.Cloud.Speech.V1P1Beta1 google/cloud/speech/v1p1beta1 speech_v1p1beta1.yaml
-generate_api Google.Cloud.Tasks.V2Beta2 google/cloud/tasks/v2beta2 cloudtasks_v2beta2.yaml
-generate_api Google.Cloud.Tasks.V2Beta3 google/cloud/tasks/v2beta3 cloudtasks_v2beta3.yaml
-generate_api Google.Cloud.TextToSpeech.V1 google/cloud/texttospeech/v1 tts_v1.yaml
-generate_api Google.Cloud.Trace.V1 google/devtools/cloudtrace/v1 cloudtrace_v1.yaml
-generate_api Google.Cloud.Trace.V2 google/devtools/cloudtrace/v2 cloudtrace_v2.yaml
-generate_api Google.Cloud.VideoIntelligence.V1 google/cloud/videointelligence/v1 videointelligence_v1.yaml
-generate_api Google.Cloud.Vision.V1 google/cloud/vision/v1 vision_v1.yaml
-generate_api Google.Cloud.Irm.V1Alpha2 google/cloud/irm/v1alpha2 irm.yaml
+generate_api Google.Cloud.Irm.V1Alpha2 google/cloud/irm/v1alpha2 irm_v1alpha2.yaml
