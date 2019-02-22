@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Google.Cloud.Logging.V2\Google.Cloud.Logging.V2.csproj" />
+    <ProjectReference Include="..\..\Google.Cloud.Diagnostics.AspNetCore\Google.Cloud.Diagnostics.AspNetCore\Google.Cloud.Diagnostics.AspNetCore.csproj" />
   </ItemGroup>
 
 </Project>
